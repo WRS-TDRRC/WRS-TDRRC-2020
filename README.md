@@ -1,6 +1,6 @@
-# WRS-TDRRC-2020SG1  _RELEASE VERSION_  
-The Stage Gate Model 2020-1 of World Robot Summit(Competition) Tunnel Disaster Response and Recovery Challenge.  
-THIS IS THE RELEASE VERSION.  
+# WRS-TDRRC-2020  _PROTOTYPE VERSION_  
+The Competition Model of World Robot Summit 2020 Tunnel Disaster Response and Recovery Challenge.  
+THIS IS THE PROTOTYPE VERSION.  
 
 ## SOFTWARE IMPORTANT INFORMATION for WRC 2020  
 ### ABOUT Choreonoid  
@@ -59,14 +59,14 @@ And next, do below commands:
     $ git clone https://github.com/choreonoid/choreonoid_ros.git  
     $ git clone https://github.com/choreonoid/choreonoid_ros_samples.git  
     $ git clone https://github.com/choreonoid/choreonoid_joy.git  
-    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 choreonoid/ext/WRS2020SG  
+    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020 choreonoid/ext/WRS2020  
     $ choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
     $ cd ..    
     $ catkin config --cmake-args -DBUILD_COMPETITION_PLUGIN=ON -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_CHOREONOID_EXECUTABLE=OFF -DUSE_PYTHON3=OFF -DCMAKE_BUILD_TYPE=Release -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON   
     $ catkin build  
 
 Before run, you have to add "source /opt/Algoryx/AGX-VERSION-NUMBER/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
-Please find field images and run scripts in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/wiki).  
+Please find field images and run scripts in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020/wiki).  
 
 * TERMINAL 1:  
     $ roscore  
@@ -79,7 +79,7 @@ Please find field images and run scripts in the [wiki page](https://github.com/W
 * TERMINAL 3:  
     $ cd ~/catkin_ws  
     $ source devel/setup.bash  
-    $ rosrun choreonoid_ros choreonoid devel/share/choreonoid-1.8/WRS2020SG/script/SG1L-DoubleArmV7A-ROS.py  
+    $ rosrun choreonoid_ros choreonoid devel/share/choreonoid-1.8/WRS2020/script/SG1L-DoubleArmV7A-ROS.py  
 
 * TERMINAL 4:  
     $ rqt_image_view  
@@ -92,7 +92,7 @@ If you have to install choreonoid now, please follow below commands:
     $ ~/choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
     $ sudo apt-get install qt5-default libqt5x11extras5-dev qt5-style-plugins  
     $ cd ~/choreonoid/ext  
-    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
+    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020 WRS2020
     $ cd ~/choreonoid && mkdir build && cd build  
     $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON  
     $ make -j8  
@@ -101,17 +101,17 @@ Or you are already using choreonoid, please follow below commands:
 (When your choreonoid is under ~/choreonoid)  
 
     $ cd ~/choreonoid/ext  
-    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
+    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020 WRS2020
     $ cd ~/choreonoid/build  
     $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON  
     $ make -j8  
 
 Before run, you have to add "source /opt/Algoryx/AGX-VERSION-NUMBER/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
-Please find further details(field images, run scripts, and some attentions related the stage gate rules) in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/wiki).  
+Please find further details(field images, run scripts, and some attentions related the stage gate rules) in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020/wiki).  
 
 ## The location of the simulation log files  
 After running and stopping a simulation, you can save a simulation log archive consisted from a raw simulation log file and all models needed to playback the simulation log.  
-You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS2020SG/project (if you use Choreonoid without ROS: \~/choreonoid/ext/WRS2020SG/project), too.  
+You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS2020/project (if you use Choreonoid without ROS: \~/choreonoid/ext/WRS2020/project), too.  
 
   * How to save the simulation log archive.  
     1. Find "WorldLogFile" item in the left pane items tree.  
@@ -129,4 +129,4 @@ You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS202
 
       $ build/bin/choreonoid PATH_TO_ARCHIVE/ARCHIVE_NAME.cnoid  
 
-Edited: 20th Oct. 2021
+Edited: 31th Aug. 2021

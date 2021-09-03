@@ -10,7 +10,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 7, 0, -0.4 ]
         rootAttitude: [ 
@@ -33,7 +33,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 7, -4, -0.4 ]
         rootAttitude: [ 
@@ -56,7 +56,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 17, 0, -0.4 ]
         rootAttitude: [ 
@@ -79,7 +79,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 17, -4, -0.4 ]
         rootAttitude: [ 
@@ -102,7 +102,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Debris1.body"
+        modelFile: "${SHARE}/WRS2020/model/Debris1.body"
         currentBaseLink: "BASE"
         rootPosition: [ 12, 3.8, 0.1 ]
         rootAttitude: [ 
@@ -125,7 +125,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Debris1.body"
+        modelFile: "${SHARE}/WRS2020/model/Debris1.body"
         currentBaseLink: "BASE"
         rootPosition: [ 12, -4.4, 0.1 ]
         rootAttitude: [ 
@@ -148,7 +148,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/JungleGymM3.body"
+        modelFile: "${SHARE}/WRS2020/model/JungleGymM3.body"
         currentBaseLink: "ROOT"
         rootPosition: [ 13, 0, 0 ]
         rootAttitude: [ 
@@ -171,7 +171,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag1R.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag1R.body"
         currentBaseLink: "BASE"
         rootPosition: [ 5, -3.5, 0 ]
         rootAttitude: [ 
@@ -194,7 +194,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag1L.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag1L.body"
         currentBaseLink: "BASE"
         rootPosition: [ 5, 3.5, 0 ]
         rootAttitude: [ 
@@ -217,7 +217,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag2R.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag2R.body"
         currentBaseLink: "BASE"
         rootPosition: [ 23, -3.5, 0 ]
         rootAttitude: [ 
@@ -240,7 +240,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag2L.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag2L.body"
         currentBaseLink: "BASE"
         rootPosition: [ 23, 3.5, 0 ]
         rootAttitude: [ 
@@ -263,7 +263,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/RoadSurface.body"
+        modelFile: "${SHARE}/WRS2020/model/RoadSurface.body"
         currentBaseLink: "Base"
         rootPosition: [ 0, 0, 0 ]
         rootAttitude: [ 
@@ -286,7 +286,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TunnelWall60m-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TunnelWall60m-R.body"
         currentBaseLink: "1_Base"
         rootPosition: [ 0, 0, 0 ]
         rootAttitude: [ 
@@ -309,7 +309,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TunnelWall60m-L.body"
+        modelFile: "${SHARE}/WRS2020/model/TunnelWall60m-L.body"
         currentBaseLink: "1_Base"
         rootPosition: [ 0, 0, 0 ]
         rootAttitude: [ 

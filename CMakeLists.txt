@@ -2,16 +2,16 @@ if(NOT ENABLE_GUI)
   return()
 endif()
 
-option(BUILD_WRS2020SG "Building the WRS2020SG files" ON)
-if(NOT BUILD_WRS2020SG)
+option(BUILD_WRS2020 "Building the WRS2020 files" ON)
+if(NOT BUILD_WRS2020)
   return()
 endif()
 
 if(UNIX)
   add_custom_target(
-    symlink_to_WRS2020SG ALL
+    symlink_to_WRS2020 ALL
     COMMAND ${CMAKE_COMMAND} -E create_symlink
-    ${CMAKE_CURRENT_SOURCE_DIR} ${CNOID_BINARY_SHARE_DIR}/WRS2020SG)
+    ${CMAKE_CURRENT_SOURCE_DIR} ${CNOID_BINARY_SHARE_DIR}/WRS2020)
 endif()
 
 install(DIRECTORY
@@ -19,6 +19,6 @@ install(DIRECTORY
   project
   script
   test
-  DESTINATION ${CNOID_SHARE_SUBDIR}/WRS2020SG)
+  DESTINATION ${CNOID_SHARE_SUBDIR}/WRS2020)
 
 add_subdirectory(controller)

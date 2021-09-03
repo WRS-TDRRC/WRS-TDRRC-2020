@@ -10,7 +10,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 7, 0, -0.2 ]
         rootAttitude: [ 
@@ -33,7 +33,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 6, -4, -0.2 ]
         rootAttitude: [ 
@@ -56,7 +56,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 20.5, 0, -0 ]
         rootAttitude: [ 
@@ -79,7 +79,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TerrainSG-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainSG-Capsule5x5m.body"
         currentBaseLink: ""
         rootPosition: [ 21.5, -4, -0 ]
         rootAttitude: [ 
@@ -102,7 +102,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Plate2x2.body"
+        modelFile: "${SHARE}/WRS2020/model/Plate2x2.body"
         currentBaseLink: "Plate2mX2m"
         rootPosition: [ 12.5, 1.5, 0 ]
         rootAttitude: [ 
@@ -125,7 +125,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Plate2x2.body"
+        modelFile: "${SHARE}/WRS2020/model/Plate2x2.body"
         currentBaseLink: "Plate2mX2m"
         rootPosition: [ 15.875, -2.3, 0 ]
         rootAttitude: [ 
@@ -148,7 +148,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Plate2x2.body"
+        modelFile: "${SHARE}/WRS2020/model/Plate2x2.body"
         currentBaseLink: "Plate2mX2m"
         rootPosition: [ 19.25, 1.5, 0 ]
         rootAttitude: [ 
@@ -171,7 +171,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Plate1x1.body"
+        modelFile: "${SHARE}/WRS2020/model/Plate1x1.body"
         currentBaseLink: "Plate1mX1m"
         rootPosition: [ 15.875, -0.3, 0 ]
         rootAttitude: [ 
@@ -194,7 +194,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Plate1x1.body"
+        modelFile: "${SHARE}/WRS2020/model/Plate1x1.body"
         currentBaseLink: "Plate1mX1m"
         rootPosition: [ 15.875, -0.3, 1 ]
         rootAttitude: [ 
@@ -217,7 +217,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/JungleGymJ3.body"
+        modelFile: "${SHARE}/WRS2020/model/JungleGymJ3.body"
         currentBaseLink: "JungleGymJ3"
         rootPosition: [ 17.8, -1.9, -1 ]
         rootAttitude: [ 
@@ -240,7 +240,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/JungleGymJ3.body"
+        modelFile: "${SHARE}/WRS2020/model/JungleGymJ3.body"
         currentBaseLink: "JungleGymJ3"
         rootPosition: [ 17.8, 1.9, -1 ]
         rootAttitude: [ 
@@ -263,7 +263,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/JungleGymJ3.body"
+        modelFile: "${SHARE}/WRS2020/model/JungleGymJ3.body"
         currentBaseLink: "JungleGymJ3"
         rootPosition: [ 14, -1.9, -1 ]
         rootAttitude: [ 
@@ -286,7 +286,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/JungleGymJ3.body"
+        modelFile: "${SHARE}/WRS2020/model/JungleGymJ3.body"
         currentBaseLink: "JungleGymJ3"
         rootPosition: [ 14, 1.9, -1 ]
         rootAttitude: [ 
@@ -309,7 +309,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag1R.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag1R.body"
         currentBaseLink: "BASE"
         rootPosition: [ 5, -3.5, 0 ]
         rootAttitude: [ 
@@ -332,7 +332,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag1L.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag1L.body"
         currentBaseLink: "BASE"
         rootPosition: [ 5, 3.5, 0 ]
         rootAttitude: [ 
@@ -355,7 +355,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag2R.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag2R.body"
         currentBaseLink: "BASE"
         rootPosition: [ 26, -3.5, 0 ]
         rootAttitude: [ 
@@ -378,7 +378,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/Flag2L.body"
+        modelFile: "${SHARE}/WRS2020/model/Flag2L.body"
         currentBaseLink: "BASE"
         rootPosition: [ 26, 3.5, 0 ]
         rootAttitude: [ 
@@ -401,7 +401,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/RoadSurface40m_T1L.body"
+        modelFile: "${SHARE}/WRS2020/model/RoadSurface40m_T1L.body"
         currentBaseLink: "Base"
         rootPosition: [ 0, 0, 0 ]
         rootAttitude: [ 
@@ -424,7 +424,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TunnelWall40m-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TunnelWall40m-R.body"
         currentBaseLink: "1_Base"
         rootPosition: [ 0, 0, 0 ]
         rootAttitude: [ 
@@ -447,7 +447,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020SG/model/TunnelWall40m-L.body"
+        modelFile: "${SHARE}/WRS2020/model/TunnelWall40m-L.body"
         currentBaseLink: "1_Base"
         rootPosition: [ 0, 0, 0 ]
         rootAttitude: [ 
