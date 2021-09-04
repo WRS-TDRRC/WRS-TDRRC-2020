@@ -1,12 +1,12 @@
 format: ChoreonoidBody
 formatVersion: 1.0
 angleUnit: degree
-name: L-50-2.0-4.0
+name: L-50-2.0-4.0-Blue
 
 APP:
   appearance: &APP
     material:
-      diffuseColor: [ 1.0, 0.5, 0.2 ]
+      diffuseColor: [ 0.0, 0.0, 0.5 ]
 
 ROOT: &ROOT
   -

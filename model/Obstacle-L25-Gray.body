@@ -1,12 +1,12 @@
 format: ChoreonoidBody
 formatVersion: 1.0
 angleUnit: degree
-name: Obstacle-L25
+name: Obstacle-L25-Gray
 
 APP:
   appearance: &APP
     material:
-      diffuseColor: [ 1.0, 0.5, 0.2 ]
+      diffuseColor: [ 0.5, 0.5, 0.5 ]
 
 BOX25-1: &BOX25-1
   type: Transform
@@ -57,7 +57,7 @@ OBJ: &OBJ
     <<: *BOX25-05
     translation: [ 0, 0, 0 ]
   -
-    <<: *BOX25-05
+    <<: *BOX25-15
     translation: [ 0, 0, 0.25 ]
   -
     <<: *BOX25-05
