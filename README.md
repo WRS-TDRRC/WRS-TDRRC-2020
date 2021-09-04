@@ -1,4 +1,4 @@
-# WRS-TDRRC-2020  _PROTOTYPE VERSION_  
+# WRS-TDRRC-2020  _PRACTICE VERSION_  
 The Competition Model of World Robot Summit 2020 Tunnel Disaster Response and Recovery Challenge.  
 THIS IS THE PROTOTYPE VERSION.  
 
@@ -129,4 +129,4 @@ You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS202
 
       $ build/bin/choreonoid PATH_TO_ARCHIVE/ARCHIVE_NAME.cnoid  
 
-Edited: 31th Aug. 2021
+Edited: 4th Sep. 2021
