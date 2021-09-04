@@ -505,13 +505,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M.body"
         currentBaseLink: "1"
-        rootPosition: [ 22.5, 2.1, 0 ]
+        rootPosition: [ 22.5, 1.1, 0 ]
         rootAttitude: [ 
           -1, 0, 0, 
           0, -1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 22.5, 2.1, 0 ]
+        initialRootPosition: [ 22.5, 1.1, 0 ]
         initialRootAttitude: [ 
           -1, 0, 0, 
           0, -1, 0, 
