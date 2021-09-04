@@ -365,52 +365,76 @@ items:
         isEditable: true
     - 
       id: 18
-      name: "CollapsedCeilingA"
+      name: "Capsule20x100"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/CollapsedCeilingA.body"
+        modelFile: "${SHARE}/WRS2020/model/Capsule20x100.body"
         currentBaseLink: "body"
-        rootPosition: [ 6.21186344, 3.25965423, 0.378725264 ]
+        rootPosition: [ 8, 2.8, -0.05 ]
         rootAttitude: [ 
-          -0.913361418, -0.341509641, -0.221680139, 
-          0.406983967, -0.75026269, -0.521027779, 
-          0.0116176724, -0.566106934, 0.824249943 ]
+          0.275637, -0.961262, 0, 
+          0.961262,  0.275637, 0, 
+                 0,         0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 6.21186344, 3.25965423, 0.378725264 ]
+        initialRootPosition: [ 8, 2.8, -0.05 ]
         initialRootAttitude: [ 
-          -0.913361418, -0.341509642, -0.221680139, 
-          0.406983966, -0.75026269, -0.521027779, 
-          0.0116176727, -0.566106934, 0.824249943 ]
+          0.275637, -0.961262, 0, 
+          0.961262,  0.275637, 0, 
+                 0,         0, 1 ]
         zmp: [ 0, 0, 0 ]
         staticModel: true
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: true
-    - 
-      id: 19
-      name: "CollapsedCeilingA"
-      plugin: Body
-      class: BodyItem
-      data: 
-        modelFile: "${SHARE}/WRS2020/model/CollapsedCeilingA.body"
-        currentBaseLink: "body"
-        rootPosition: [ 7.15, 3.4966, 0.5664 ]
-        rootAttitude: [ 
-          -0.098729238, 0.957412377, -0.271319145, 
-          -0.546253827, -0.280042177, -0.789419493, 
-          -0.831780797, 0.0702703363, 0.550638526 ]
-        jointPositions: [  ]
-        initialRootPosition: [ 7.15, 3.4966, 0.5664 ]
-        initialRootAttitude: [ 
-          -0.0987292581, 0.957412381, -0.271319155, 
-          -0.546253823, -0.2800422, -0.7894195, 
-          -0.831780807, 0.0702703298, 0.550638517 ]
-        zmp: [ 0, 0, 0 ]
-        staticModel: true
-        collisionDetection: true
-        selfCollisionDetection: false
-        isEditable: true
+#    - 
+#      id: 18
+#      name: "CollapsedCeilingA"
+#      plugin: Body
+#      class: BodyItem
+#      data: 
+#        modelFile: "${SHARE}/WRS2020/model/CollapsedCeilingA.body"
+#        currentBaseLink: "body"
+#        rootPosition: [ 6.21186344, 3.25965423, 0.378725264 ]
+#        rootAttitude: [ 
+#          -0.913361418, -0.341509641, -0.221680139, 
+#          0.406983967, -0.75026269, -0.521027779, 
+#          0.0116176724, -0.566106934, 0.824249943 ]
+#        jointPositions: [  ]
+#        initialRootPosition: [ 6.21186344, 3.25965423, 0.378725264 ]
+#        initialRootAttitude: [ 
+#          -0.913361418, -0.341509642, -0.221680139, 
+#          0.406983966, -0.75026269, -0.521027779, 
+#          0.0116176727, -0.566106934, 0.824249943 ]
+#        zmp: [ 0, 0, 0 ]
+#        staticModel: true
+#        collisionDetection: true
+#        selfCollisionDetection: false
+#        isEditable: true
+#    - 
+#      id: 19
+#      name: "CollapsedCeilingA"
+#      plugin: Body
+#      class: BodyItem
+#      data: 
+#        modelFile: "${SHARE}/WRS2020/model/CollapsedCeilingA.body"
+#        currentBaseLink: "body"
+#        rootPosition: [ 7.15, 3.4966, 0.5664 ]
+#        rootAttitude: [ 
+#          -0.098729238, 0.957412377, -0.271319145, 
+#          -0.546253827, -0.280042177, -0.789419493, 
+#          -0.831780797, 0.0702703363, 0.550638526 ]
+#        jointPositions: [  ]
+#        initialRootPosition: [ 7.15, 3.4966, 0.5664 ]
+#        initialRootAttitude: [ 
+#          -0.0987292581, 0.957412381, -0.271319155, 
+#          -0.546253823, -0.2800422, -0.7894195, 
+#          -0.831780807, 0.0702703298, 0.550638517 ]
+#        zmp: [ 0, 0, 0 ]
+#        staticModel: true
+#        collisionDetection: true
+#        selfCollisionDetection: false
+#        isEditable: true
     - 
       id: 20
       name: "Smoke"
@@ -489,13 +513,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 2, -2, -0.2 ]
+        rootPosition: [ 2, -2, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 2, -2, -0.2 ]
+        initialRootPosition: [ 2, -2, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -512,13 +536,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 7, -2, -0.2 ]
+        rootPosition: [ 7, -2, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 7, -2, -0.2 ]
+        initialRootPosition: [ 7, -2, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -535,13 +559,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 12, -3, -0.2 ]
+        rootPosition: [ 12, -3, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 12, -3, -0.2 ]
+        initialRootPosition: [ 12, -3, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -558,13 +582,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 17, -4, -0.2 ]
+        rootPosition: [ 17, -4, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 17, -4, -0.2 ]
+        initialRootPosition: [ 17, -4, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -581,13 +605,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 23, -7, -0.2 ]
+        rootPosition: [ 23, -7, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 23, -7, -0.2 ]
+        initialRootPosition: [ 23, -7, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -604,13 +628,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 28, -3, -0.2 ]
+        rootPosition: [ 28, -3, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 28, -3, -0.2 ]
+        initialRootPosition: [ 28, -3, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 

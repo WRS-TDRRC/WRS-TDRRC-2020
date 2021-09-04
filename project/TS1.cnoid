@@ -531,13 +531,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 2, -4, -0.2 ]
+        rootPosition: [ 2, -4, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 2, -4, -0.2 ]
+        initialRootPosition: [ 2, -4, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -554,13 +554,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 5, -5, -0.2 ]
+        rootPosition: [ 5, -5, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 5, -5, -0.2 ]
+        initialRootPosition: [ 5, -5, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -577,13 +577,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 10, -5, -0.2 ]
+        rootPosition: [ 10, -5, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 10, -5, -0.2 ]
+        initialRootPosition: [ 10, -5, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -600,13 +600,13 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 15, -4, -0.2 ]
+        rootPosition: [ 15, -4, -0.5 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 15, -4, -0.2 ]
+        initialRootPosition: [ 15, -4, -0.5 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
