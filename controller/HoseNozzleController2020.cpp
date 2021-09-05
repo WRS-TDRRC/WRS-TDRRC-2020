@@ -14,7 +14,7 @@ using namespace cnoid;
 
 static float random(float max = 1.0f)
 {
-    return ((float)rand() / RAND_MAX) * max;
+    return ((float)rand() / (float)RAND_MAX) * max;
 }
 
 
@@ -49,7 +49,7 @@ public:
         Affine3 T;
         //auto nodePath = hoseConnector->shape()->findNode("END", T);
         //hoseConnectorEndPosition = T.translation();
-        hoseConnectorEndPosition << 0.0, 0.0, -0.08;
+        hoseConnectorEndPosition << 0.08, 0.0, 0.0;
         lever = body->link("HOSE_NOZZLE_LEVER");
         reactionJoint1 = body->link("HOSE_NOZZLE_WATER_REACTION_JOINT1");
         reactionJoint2 = body->link("HOSE_NOZZLE_WATER_REACTION_JOINT2");
@@ -105,7 +105,7 @@ public:
             isHoseConnected = true;
             isValveOpened = true;
         } else {
-            Vector3 p = hoseConnector->attitude() * hoseConnectorEndPosition + hoseConnector->translation();
+            Vector3 p = hoseConnector->R() * hoseConnectorEndPosition + hoseConnector->translation();
             double distance = (nozzle->translation() - p).norm();
             isHoseConnected = distance < 0.001;
             if(mode == 2){
@@ -151,7 +151,7 @@ public:
 
     void notifyWaterFlowTarget()
     {
-        Position T_water = nozzle->T() * water->T_local();
+        Isometry3 T_water = nozzle->T() * water->T_local();
         Vector3 p = T_water.translation();
         Vector3 v_local(0.0, 0.0, water->particleSystem().initialSpeedAverage());
         Vector3 v = T_water.linear() * v_local;
@@ -161,8 +161,8 @@ public:
         double t = (t1 >= t2) ? t1 : t2;
         Vector3 position(v.x() * t + p.x(), v.y() * t + p.y(), 0.0);
         
-        Position T_nozzle;
-        T_nozzle.linear() = nozzle->attitude();
+        Isometry3 T_nozzle;
+        T_nozzle.linear() = nozzle->R();
         T_nozzle.translation() = nozzle->translation();
 
         if(marker->on()){
