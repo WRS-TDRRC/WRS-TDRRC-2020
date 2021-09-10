@@ -1,6 +1,9 @@
 # WRS-TDRRC-2020  _PRACTICE VERSION_  
 The Competition Model of World Robot Summit 2020 Tunnel Disaster Response and Recovery Challenge.  
-THIS IS THE PROTOTYPE VERSION.  
+THIS IS THE PROTOTYPE VERSION FOR PRACTICE.  
+
+## _ATTENTION: TS4 is still under construting_  
+TS4 is still under constructing. Targets are placing on Jetfun.  
 
 ## SOFTWARE IMPORTANT INFORMATION for WRC 2020  
 ### ABOUT Choreonoid  
@@ -129,4 +132,4 @@ You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS202
 
       $ build/bin/choreonoid PATH_TO_ARCHIVE/ARCHIVE_NAME.cnoid  
 
-Edited: 4th Sep. 2021
+Edited: 11th Sep. 2021
