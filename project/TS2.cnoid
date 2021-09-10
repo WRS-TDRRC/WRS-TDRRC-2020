@@ -931,15 +931,15 @@ items:
             rootPosition: [ 28, -3.78, 0.3 ]
 #            rootPosition: [ 28, -3.78, 0.3 ]
             rootAttitude: [ 
-              0, -1, -0, 
-              0,  0, -1, 
-              1,  0,  0 ]
+              0, -1,  0, 
+              1,  0,  0, 
+              0,  0,  1 ]
 #            jointPositions: [ -0.000008,  0.000000 ]
             initialRootPosition: [ 28, -3.78, 0.3 ]
             initialRootAttitude: [ 
-              0, -1, -0, 
-              0,  0, -1, 
-              1,  0,  0 ]
+              0, -1,  0, 
+              1,  0,  0, 
+              0,  0,  1 ]
 #            initialJointPositions: [ -0.000008,  0.000000 ]
             zmp: [ 0, 0, 0 ]
             collisionDetection: true
@@ -955,15 +955,15 @@ items:
             currentBaseLink: "BODY"
             rootPosition: [ 28.5, -3.78, 0.3 ]
             rootAttitude: [ 
-              0, -1, -0, 
-              0,  0, -1, 
-              1,  0,  0 ]
+              0, -1,  0, 
+              1,  0,  0, 
+              0,  0,  1 ]
 #            jointPositions: [ -0.000008,  0.000000 ]
             initialRootPosition: [ 28.5, -3.78, 0.3 ]
             initialRootAttitude: [ 
-              0, -1, -0, 
-              0,  0, -1, 
-              1,  0,  0 ]
+              0, -1,  0, 
+              1,  0,  0, 
+              0,  0,  1 ]
 #            initialJointPositions: [ -0.000008,  0.000000 ]
             zmp: [ 0, 0, 0 ]
             collisionDetection: true
