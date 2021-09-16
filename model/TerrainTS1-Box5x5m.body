@@ -1,0 +1,996 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: BoxTerrain
+
+APPEARANCE: &APP
+  material:
+    diffuseColor: [ 0.56, 0.56, 0.56 ]
+
+LINE0: &LINE0
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.6624005, -0.7475725, 0.04858906, 11.20803 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38875271803003925, 0.12, 0.41001153230464543 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.06 ]
+    rotation: [ [ -0.8535403, 0.5209764, 0.007249609, 1.868042 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40700252148319277, 0.12, 0.3962250356186516 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.06 ]
+    rotation: [ [ 0.7180357, 0.6918952, -0.07553705, 17.29071 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32850268524998105, 0.12, 0.3967719506802534 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ 0.6722435, 0.7372312, -0.06766646, 15.54958 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40300721656212346, 0.12, 0.40703701049887936 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.06 ]
+    rotation: [ [ -0.54513, -0.8367634, -0.05157798, 12.90249 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3221038327599966, 0.12, 0.40278902768267466 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.06 ]
+    rotation: [ [ 0.0004552734, 0.9999999, -3.272308e-05, 8.222206 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.36758173672656635, 0.12, 0.40381543756767374 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.06 ]
+    rotation: [ [ 0.02326868, -0.9997231, 0.003492194, 17.0753 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3408612480699553, 0.12, 0.41346565607578817 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.06 ]
+    rotation: [ [ 0.7522243, 0.6572563, -0.04661259, 10.77189 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.34726772160228603, 0.12, 0.4089873650578415 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.06 ]
+    rotation: [ [ -0.0259139, 0.9996578, 0.003562793, 15.66185 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.388250348982512, 0.12, 0.3333889796273994 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.06 ]
+    rotation: [ [ -0.6212176, 0.7825238, 0.04177544, 9.82351 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38880388284993894, 0.12, 0.3467265316327816 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ -0.2436619, 0.9695559, 0.02429355, 11.74246 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4105019844266251, 0.12, 0.35542563538100813 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.1013857, 0.9947904, 0.01062888, 12.03183 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.34212966856134214, 0.12, 0.4140556382322105 ] }
+    appearance: *APP
+
+LINE1: &LINE1
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.7295175, 0.6787423, -0.08433928, 19.33276 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32194137915724685, 0.12, 0.3613240632923855 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ -0.2011368, 0.979508, 0.01039757, 6.042023 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.342388056076693, 0.24, 0.358896473782897 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.06 ]
+    rotation: [ [ -0.4877903, -0.8702051, -0.06930909, 18.54695 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3584551296885957, 0.12, 0.43458942023271013 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ -0.9457898, 0.3221489, 0.04125302, 15.42141 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3268556253484378, 0.12, 0.42670584705722625 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.12 ]
+    rotation: [ [ 0.9999803, -0.006258237, 0.0005023312, 9.178447 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.35097761351324436, 0.24, 0.358928058268979 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.12 ]
+    rotation: [ [ 0.9992911, -0.0375937, 0.001996605, 6.084562 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4225551922613475, 0.24, 0.3366443050607807 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.12 ]
+    rotation: [ [ -0.7842083, -0.618583, -0.04870707, 11.46732 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3301541208121903, 0.24, 0.34040051632202695 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.12 ]
+    rotation: [ [ -0.1192922, -0.9927462, -0.01497564, 14.41414 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38473841401051323, 0.24, 0.417801502178674 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.12 ]
+    rotation: [ [ 0.3131741, -0.9490938, 0.03380663, 12.97769 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38071752153033006, 0.24, 0.4298455994537432 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.12 ]
+    rotation: [ [ 0.8639134, -0.5034122, 0.01515778, 3.992258 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3565025675240514, 0.24, 0.37670539277270865 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.12 ]
+    rotation: [ [ -0.1467895, -0.9889456, -0.02096434, 16.43517 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4026999153128092, 0.24, 0.33911488135880424 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.871767, 0.4845981, 0.0720206, 19.3496 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3717752999255864, 0.12, 0.32211226009521365 ] }
+    appearance: *APP
+
+LINE2: &LINE2
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.8184531, -0.5692949, 0.07770381, 18.93588 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.39613167869065596, 0.12, 0.39320988181377575 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ 0.2553488, 0.9666118, -0.02141365, 9.916795 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32353662534774874, 0.24, 0.3743736616531694 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.18 ]
+    rotation: [ [ -0.7674241, 0.6382833, 0.06045425, 14.07148 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3200207956992413, 0.36, 0.33915358871734197 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.12 ]
+    rotation: [ [ 0.4831939, -0.8743415, 0.04528359, 12.2359 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.42715399328057463, 0.24, 0.32414034973552064 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.06 ]
+    rotation: [ [ 0.9967724, 0.07961431, -0.01030838, 14.80235 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4282149720034065, 0.12, 0.433844149641221 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.06 ]
+    rotation: [ [ -0.4572837, 0.8892089, 0.01411337, 3.975754 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3728996517273542, 0.12, 0.4376901606901538 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.18 ]
+    rotation: [ [ 0.675415, -0.7326336, 0.08403951, 19.27766 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.41366262293785616, 0.36, 0.41810725359103557 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.06 ]
+    rotation: [ [ 0.7369904, 0.6685224, -0.09961429, 22.86026 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.35682079558351504, 0.12, 0.3901488874381432 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.12 ]
+    rotation: [ [ -0.9935892, 0.1120629, 0.01491188, 15.25596 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.334042053075958, 0.24, 0.42047615891284806 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.18 ]
+    rotation: [ [ 0.9985185, 0.05432405, -0.003118503, 6.580711 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.364268231926123, 0.36, 0.36469575649148145 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ -0.4475883, 0.8921291, 0.06140314, 17.4843 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3599740876615471, 0.12, 0.3447092496026242 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.9987714, 0.04930204, 0.004996433, 11.58772 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3434851032291693, 0.12, 0.34888994572144094 ] }
+    appearance: *APP
+
+LINE3: &LINE3
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.5844183, 0.8102717, -0.04376002, 10.55951 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3616468159231649, 0.12, 0.3390770537736316 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.06 ]
+    rotation: [ [ 0.979091, -0.2028494, 0.01526162, 8.788277 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38735968368833007, 0.12, 0.3201144070654376 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.18 ]
+    rotation: [ [ -0.4663693, 0.8839107, 0.03466196, 9.612734 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40722811442307294, 0.36, 0.3507030789703558 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.12 ]
+    rotation: [ [ 0.9689005, -0.2473411, 0.007359133, 3.51777 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3679638793999635, 0.24, 0.3959419693867579 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.18 ]
+    rotation: [ [ 0.9741495, 0.2241444, -0.02814171, 14.68798 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3741038694223262, 0.36, 0.32006711792011316 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.12 ]
+    rotation: [ [ 0.686423, -0.7271964, 0.002974849, 0.6829184 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3923509567153173, 0.24, 0.35216246110568467 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.18 ]
+    rotation: [ [ 0.7827663, 0.6214183, -0.03340915, 7.85815 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3646981208452445, 0.36, 0.33599760433074366 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.06 ]
+    rotation: [ [ -0.9999546, -0.009478591, -0.0009569178, 11.53013 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.347204561394236, 0.12, 0.36512583382249475 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.18 ]
+    rotation: [ [ -0.6833249, -0.7235174, -0.09792662, 22.40742 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32811360985573934, 0.36, 0.3351803329483152 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.06 ]
+    rotation: [ [ -0.9189296, -0.3907844, -0.05344061, 16.92891 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4217257695034401, 0.12, 0.3677412926117185 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ 0.4037742, 0.9148307, -0.0071527, 2.218651 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.420451858503683, 0.12, 0.4201281827224758 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ 0.8481081, -0.5251496, 0.07021858, 17.91886 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3868311416226301, 0.12, 0.43266902948646674 ] }
+    appearance: *APP
+
+LINE4: &LINE4
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.9413846, 0.3351864, -0.03801397, 13.73898 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3646939468287465, 0.12, 0.3654472608984075 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ -0.7705666, -0.6302269, -0.09508547, 22.15644 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.39483340307609804, 0.24, 0.3811159100112066 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.18 ]
+    rotation: [ [ -0.7483665, -0.6613165, -0.0510693, 11.78296 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.33011508481521135, 0.36, 0.4122990900192159 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ 0.2804233, -0.9598156, 0.01080941, 4.599595 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.41801951557145883, 0.12, 0.40470401560846664 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.06 ]
+    rotation: [ [ 0.2136861, 0.9765397, -0.02661783, 14.53851 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4005158185084592, 0.12, 0.38142010108830104 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.12 ]
+    rotation: [ [ -0.7302986, 0.6756478, 0.1008166, 23.09548 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38439811420024234, 0.24, 0.4263605479629991 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.12 ]
+    rotation: [ [ -0.999309, 0.03683515, 0.004970452, 15.38039 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.36138913110370485, 0.24, 0.36389306356346707 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.18 ]
+    rotation: [ [ -0.6313708, -0.7749045, -0.02989965, 6.994334 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3544726437740334, 0.36, 0.368752968655792 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.12 ]
+    rotation: [ [ 0.1586666, 0.9870693, -0.02278325, 16.55386 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.37682889645611095, 0.24, 0.426183874712401 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.12 ]
+    rotation: [ [ -0.8521093, -0.517639, -0.07719906, 19.85481 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4148413045401273, 0.24, 0.436073687355767 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.12 ]
+    rotation: [ [ -0.998172, -0.06014942, -0.005895016, 11.2153 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4003518480434483, 0.24, 0.36555953969170296 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ 0.6891749, 0.7232538, -0.04406717, 10.10462 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3249292647077418, 0.12, 0.42013546972935906 ] }
+    appearance: *APP
+
+LINE5: &LINE5
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ -0.6636114, -0.7428821, -0.08801238, 20.24469 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.37188786403933394, 0.12, 0.4056430942719911 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ -0.6990074, 0.7101612, 0.0840225, 19.21378 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.34959328881678564, 0.24, 0.4072205916429223 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.18 ]
+    rotation: [ [ -0.9613811, -0.2722652, -0.04022472, 17.47324 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.35670836106374354, 0.36, 0.3758439263316607 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ -0.8185944, -0.5690432, -0.07805777, 19.0256 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38275151909482236, 0.12, 0.33462284419232946 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.12 ]
+    rotation: [ [ 0.5265681, -0.8475495, 0.06622637, 16.88132 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.34862938994986303, 0.24, 0.397472621653926 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.18 ]
+    rotation: [ [ -0.9749679, 0.2221868, 0.008400049, 4.441282 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4088262475090201, 0.36, 0.3845737403629791 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.18 ]
+    rotation: [ [ 0.56037, -0.8266085, 0.05199823, 12.81009 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3370166511404074, 0.36, 0.3554712642158445 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.06 ]
+    rotation: [ [ -0.8702676, 0.4890598, 0.05877759, 15.72574 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.41956043782188535, 0.12, 0.43289009390713007 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.18 ]
+    rotation: [ [ 0.6999495, 0.7133028, -0.03563469, 8.164868 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3647339977666797, 0.36, 0.41688724861159376 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.06 ]
+    rotation: [ [ 0.2510433, -0.9679341, 0.008987846, 4.236584 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3234229676141239, 0.12, 0.4365691605749287 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.12 ]
+    rotation: [ [ -0.9858549, 0.1671601, 0.01214976, 8.433144 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3546343502438371, 0.24, 0.32587852763659225 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.7696306, -0.6358343, -0.05816743, 13.5573 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3682626699450197, 0.12, 0.376475686389191 ] }
+    appearance: *APP
+
+LINE6: &LINE6
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.6363911, -0.7685275, 0.06611996, 15.39843 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4165142997376077, 0.12, 0.3681574394274316 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ 0.6081853, -0.7928309, 0.03911232, 9.274702 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.33444062295822813, 0.24, 0.32848611880037976 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.06 ]
+    rotation: [ [ -0.9963408, 0.08514207, 0.0074685, 10.06272 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40562080703383074, 0.12, 0.37396717824098835 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ 0.921367, -0.3848665, 0.05441153, 17.44723 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.43253380326268354, 0.12, 0.4114332436360528 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.12 ]
+    rotation: [ [ 0.9186946, -0.3911923, 0.05448596, 17.24174 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3553140070612939, 0.24, 0.3914636545740831 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.06 ]
+    rotation: [ [ 0.9589806, 0.2824526, -0.02401682, 10.13394 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.41446939566437946, 0.12, 0.36918727872337 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.12 ]
+    rotation: [ [ 0.3952828, 0.9169999, -0.05350442, 16.79347 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.36933664404870015, 0.24, 0.37114558501137457 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.18 ]
+    rotation: [ [ 0.7582254, -0.6506356, 0.04204257, 9.742213 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40426339709569126, 0.36, 0.3277331990928547 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.12 ]
+    rotation: [ [ 0.1972662, 0.9801022, -0.02203888, 13.00612 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3991451165431464, 0.24, 0.3667421585493437 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.12 ]
+    rotation: [ [ -0.5080355, 0.8588319, 0.06563288, 17.10913 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3294449347447599, 0.24, 0.41081607691013 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.12 ]
+    rotation: [ [ 0.7049488, 0.7065024, -0.06246309, 14.29695 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4070720474919334, 0.24, 0.43001564639012246 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.07703659, 0.9970111, 0.005854834, 8.718285 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.37569080306377434, 0.12, 0.42851295644054554 ] }
+    appearance: *APP
+
+LINE7: &LINE7
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.9478689, -0.3153465, 0.04583907, 17.4374 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.36160306880294946, 0.12, 0.4379403478771508 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ -0.18073, 0.9833166, 0.02061641, 13.23442 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3279972195414415, 0.24, 0.41431132931968345 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.06 ]
+    rotation: [ [ -0.2357023, -0.9712104, -0.03456602, 17.1734 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40663227337127505, 0.12, 0.3640094544596535 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ 0.6318675, -0.7731873, 0.05408325, 12.63398 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32696269337401146, 0.12, 0.38668796585697957 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.12 ]
+    rotation: [ [ 0.7117343, -0.694739, 0.1037884, 23.70841 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3725825453411126, 0.24, 0.3326509699992724 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.18 ]
+    rotation: [ [ 0.9096076, 0.4153807, -0.00854046, 2.58976 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.35783867855354196, 0.36, 0.4069559635415326 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.12 ]
+    rotation: [ [ -0.9843418, -0.17471, -0.02340102, 15.4976 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3227349555608268, 0.24, 0.428963677952185 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.12 ]
+    rotation: [ [ -0.7643009, -0.6431724, -0.04661949, 10.83506 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3474741025994432, 0.24, 0.4197184851149162 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.18 ]
+    rotation: [ [ -0.6391355, -0.7633774, -0.09359916, 21.71939 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.33384572639710464, 0.36, 0.3440038120045219 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.18 ]
+    rotation: [ [ 0.9914876, -0.1300935, 0.005300865, 4.706652 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3534227161570289, 0.36, 0.35338337979929946 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ -0.3175089, -0.9475125, -0.03752668, 14.22049 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3797261644638219, 0.12, 0.4388619426281018 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.994126, -0.1070469, -0.01595028, 17.04843 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.38515263453826665, 0.12, 0.4129830625563308 ] }
+    appearance: *APP
+
+LINE8: &LINE8
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.9998438, -0.01765199, 0.0008268545, 5.364614 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3898778537948532, 0.12, 0.33117826021794405 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.06 ]
+    rotation: [ [ 0.4009212, -0.9144389, 0.0553505, 17.17089 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3964338724884794, 0.12, 0.3834055356897247 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.12 ]
+    rotation: [ [ 0.200367, -0.9793584, 0.02664789, 15.46675 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3511342566252458, 0.24, 0.41298718690262437 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ -0.7861339, -0.6146972, -0.06435016, 15.1704 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3476111921763949, 0.12, 0.38432809374793075 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.06 ]
+    rotation: [ [ -0.6983, -0.7110405, -0.08245294, 18.8572 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.397945996756981, 0.12, 0.3342095624233404 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.12 ]
+    rotation: [ [ -0.9979674, -0.06304772, -0.009280273, 16.78061 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.41488659387884125, 0.24, 0.3797368874582978 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.06 ]
+    rotation: [ [ 0.8452397, 0.5321379, -0.04898075, 12.42985 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.35048459003524574, 0.12, 0.39032421758272484 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.18 ]
+    rotation: [ [ -0.5458219, -0.8348623, -0.07129777, 17.78508 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.361217309172088, 0.36, 0.36970168295400685 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.06 ]
+    rotation: [ [ 0.7227353, 0.6893437, -0.04958847, 11.36816 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3250903887798948, 0.12, 0.390697032502614 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.18 ]
+    rotation: [ [ 0.2042159, -0.9788966, 0.007570821, 4.337723 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3635565961095049, 0.36, 0.3479015424192792 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ -0.9682002, 0.2501332, 0.004659851, 2.204624 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.42908398692764815, 0.12, 0.42590667213624017 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ 0.9099455, 0.4100963, -0.0618074, 18.80905 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4379600790397487, 0.12, 0.41576400627265175 ] }
+    appearance: *APP
+
+LINE9: &LINE9
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ -0.9110386, -0.4092104, -0.05055221, 15.44431 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4385329422726276, 0.12, 0.4231972114142032 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ 0.4560432, 0.887366, -0.0678696, 19.04128 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3622736545430571, 0.24, 0.38690924667918014 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.18 ]
+    rotation: [ [ -0.7151629, -0.6989088, -0.0082767, 1.897338 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3367129690137226, 0.36, 0.4073573819301081 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ -0.7921555, -0.6055004, -0.07654413, 18.13398 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3899316131022392, 0.12, 0.4108619331783695 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.06 ]
+    rotation: [ [ -0.1853019, 0.9823171, 0.02676337, 16.72866 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3812990508280494, 0.12, 0.329084926905886 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.06 ]
+    rotation: [ [ 0.2661023, 0.9631787, -0.03842256, 17.05145 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.42940799633603677, 0.12, 0.32222650207105324 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.12 ]
+    rotation: [ [ 0.2155072, 0.9762162, -0.02363601, 12.8204 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.36642166118532105, 0.24, 0.3933589383272512 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.12 ]
+    rotation: [ [ -0.4432119, -0.8940653, -0.06488819, 18.59945 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3364862182423819, 0.24, 0.3747313736497908 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.18 ]
+    rotation: [ [ -0.2193327, 0.9752879, 0.02658357, 14.16801 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.33605996109875713, 0.36, 0.4318152222280147 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.18 ]
+    rotation: [ [ 0.8206696, 0.5704582, -0.0328451, 8.026384 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3925213029255318, 0.36, 0.34456602330708996 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.12 ]
+    rotation: [ [ -0.9927085, 0.1202791, 0.007921012, 7.590762 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3961351033352727, 0.24, 0.4012239022598494 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.7004149, 0.7086767, 0.08483139, 19.39679 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3933763072497198, 0.12, 0.42784311022191535 ] }
+    appearance: *APP
+
+LINE10: &LINE10
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ 0.4404455, -0.8969293, 0.03905925, 11.2932 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3380995011605175, 0.12, 0.38758790734660353 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.12 ]
+    rotation: [ [ 0.4398293, -0.8961392, 0.05903144, 17.03571 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3501330629741559, 0.24, 0.3398377259919147 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.06 ]
+    rotation: [ [ 0.4888582, -0.8719221, 0.02773991, 7.447064 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4312392194658461, 0.12, 0.37925535400914623 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ -0.9848262, 0.173476, 0.004850224, 3.252361 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.39005371643047126, 0.12, 0.37354059513598553 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.12 ]
+    rotation: [ [ 0.4371518, -0.8971164, 0.06387824, 18.50236 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32347266479968095, 0.24, 0.39826201186879956 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.06 ]
+    rotation: [ [ -0.6094601, -0.7877221, -0.08973394, 21.17427 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3344935481788551, 0.12, 0.3239272321991852 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.06 ]
+    rotation: [ [ 0.5627142, -0.8249616, 0.05283118, 12.98544 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3464157591110051, 0.12, 0.4055985118352702 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.12 ]
+    rotation: [ [ -0.9471196, 0.3195494, 0.02919863, 11.02123 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3818091337729971, 0.24, 0.3983817603512738 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.12 ]
+    rotation: [ [ -0.9358681, -0.3491697, -0.04723798, 16.45109 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.39696495899340895, 0.24, 0.38233010028536346 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.12 ]
+    rotation: [ [ -0.675495, -0.7367429, -0.0302725, 6.961904 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3959252549208724, 0.24, 0.32898205665714997 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ 0.9834096, 0.1803389, -0.01957962, 12.60021 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.41158637463261044, 0.12, 0.3474009859747259 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ 0.3400919, -0.9391142, 0.0490108, 17.44838 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.40663816752466037, 0.12, 0.3209041591265197 ] }
+    appearance: *APP
+
+LINE11: &LINE11
+  -
+    type: Shape
+    translation: [ 0.0, 0, 0.06 ]
+    rotation: [ [ -0.03936489, -0.9992213, -0.002676121, 7.784288 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3345905382526351, 0.12, 0.41876983620880104 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.4, 0, 0.06 ]
+    rotation: [ [ -0.8318194, -0.5544319, -0.02611111, 6.480929 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4326613900700613, 0.12, 0.36527751288993093 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 0.8, 0, 0.06 ]
+    rotation: [ [ -0.5594213, -0.8273269, -0.05077439, 12.52126 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3332079698179529, 0.12, 0.3679535868226688 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.2, 0, 0.06 ]
+    rotation: [ [ -0.6802255, -0.7305636, -0.05975038, 13.71206 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.32386267525063045, 0.12, 0.35423490886582687 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 1.6, 0, 0.06 ]
+    rotation: [ [ -0.8570858, -0.5137696, -0.03800974, 9.866876 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3394875308488015, 0.12, 0.3813651839312111 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.0, 0, 0.06 ]
+    rotation: [ [ -0.3655795, -0.9303724, -0.0275475, 9.260816 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4310982301049938, 0.12, 0.43957727638463295 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.4, 0, 0.06 ]
+    rotation: [ [ -0.5451893, 0.8376063, 0.03441457, 8.619609 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.4071216225125671, 0.12, 0.4294077499488544 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 2.8, 0, 0.06 ]
+    rotation: [ [ -0.5991157, -0.7995392, -0.04239652, 10.11585 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.33616081201742404, 0.12, 0.43787162942269586 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.2, 0, 0.06 ]
+    rotation: [ [ 0.5364544, 0.8404148, -0.07693981, 19.36928 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3729335006577441, 0.12, 0.41663979514882254 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 3.6, 0, 0.06 ]
+    rotation: [ [ 0.2575407, -0.9657453, 0.03176265, 14.55515 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.35575597895871947, 0.12, 0.3862537692411035 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.0, 0, 0.06 ]
+    rotation: [ [ 0.7600922, -0.6428978, 0.09456365, 21.90451 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.33842881949612935, 0.12, 0.4251192099693142 ] }
+    appearance: *APP
+  -
+    type: Shape
+    translation: [ 4.4, 0, 0.06 ]
+    rotation: [ [ -0.5616612, 0.825529, 0.05512369, 13.55971 ], [ 1, 0, 0, 90 ] ]
+    geometry: { type: Box, size: [ 0.3668593661584723, 0.12, 0.3691803142430214 ] }
+    appearance: *APP
+
+links:
+  - 
+    name: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    elements:
+      -
+        type: Transform
+        translation: [ 0.2, 0.2, 0 ]
+        elements: *LINE0
+  - 
+    name: LINE1
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 0.6, 0 ]
+    elements: *LINE1
+  - 
+    name: LINE2
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 1.0, 0 ]
+    elements: *LINE2
+  - 
+    name: LINE3
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 1.4, 0 ]
+    elements: *LINE3
+  - 
+    name: LINE4
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 1.8, 0 ]
+    elements: *LINE4
+  - 
+    name: LINE5
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 2.2, 0 ]
+    elements: *LINE5
+  - 
+    name: LINE6
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 2.6, 0 ]
+    elements: *LINE6
+  - 
+    name: LINE7
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 3.0, 0 ]
+    elements: *LINE7
+  - 
+    name: LINE8
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 3.4, 0 ]
+    elements: *LINE8
+  - 
+    name: LINE9
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 3.8, 0 ]
+    elements: *LINE9
+  - 
+    name: LINE10
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 4.2, 0 ]
+    elements: *LINE10
+  - 
+    name: LINE11
+    parent: LINE0
+    jointType: fixed
+    material: Ground
+    convexRecompostiion: true
+    translation: [ 0.2, 4.6, 0 ]
+    elements: *LINE11
