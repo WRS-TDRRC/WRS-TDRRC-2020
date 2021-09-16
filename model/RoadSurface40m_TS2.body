@@ -97,7 +97,8 @@ GATE: &GATE
 
 HOLE: &HOLE
   type: Transform
-  material: Steel
+  material: Default
+#  material: Steel
   rotation: [ 0, 0, 1, 90]
   elements:
     -
