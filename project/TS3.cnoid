@@ -262,15 +262,15 @@ items:
             baseDirectory: "Controller directory"
             reloading: false
             isOldTargetVariableMode: false
-    - 
-      id: 13
-      name: "WorldLogFile"
-      plugin: Body
-      class: WorldLogFileItem
-      data: 
-        filename: TS3.log
-        timeStampSuffix: true
-        recordingFrameRate: 100
+#    - 
+#      id: 13
+#      name: "WorldLogFile"
+#      plugin: Body
+#      class: WorldLogFileItem
+#      data: 
+#        filename: TS3.log
+#        timeStampSuffix: true
+#        recordingFrameRate: 100
     - 
       id: 14
       name: "Smoke"
@@ -643,15 +643,15 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
-    - 
-      id: 40
-      name: "WorldLogFile"
-      plugin: Body
-      class: WorldLogFileItem
-      data: 
-        filename: TS3.log
-        timeStampSuffix: true
-        recordingFrameRate: 100
+#    - 
+#      id: 40
+#      name: "WorldLogFile"
+#      plugin: Body
+#      class: WorldLogFileItem
+#      data: 
+#        filename: TS3.log
+#        timeStampSuffix: true
+#        recordingFrameRate: 100
     - 
       id: 23
       name: "Flag3R"
@@ -698,6 +698,15 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
+    - 
+      id: 1000
+      name: "materials-WRS2020"
+      plugin: Body
+      class: MaterialTableItem
+      data: 
+        file: "materials-WRS2020.yaml"
+        format: MATERIAL-TABLE-FILE
+
 views: 
   - 
     id: 1

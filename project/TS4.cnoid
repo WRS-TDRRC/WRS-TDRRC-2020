@@ -1608,7 +1608,14 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
-
+    - 
+      id: 1000
+      name: "materials-WRS2020"
+      plugin: Body
+      class: MaterialTableItem
+      data: 
+        file: "materials-WRS2020.yaml"
+        format: MATERIAL-TABLE-FILE
 
 views: 
   - 

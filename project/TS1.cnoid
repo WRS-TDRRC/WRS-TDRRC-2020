@@ -525,19 +525,20 @@ items:
         isEditable: false
     - 
       id: 200
-      name: "Terrain-Capsule5x5m A"
+      name: "Terrain-5x5m A"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS1-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 2, -4, -0.5 ]
+        rootPosition: [ 2, -4, -0.35 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 2, -4, -0.5 ]
+        initialRootPosition: [ 2, -4, -0.35 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -548,19 +549,20 @@ items:
         isEditable: false
     - 
       id: 201
-      name: "Terrain-Capsule5x5m B"
+      name: "Terrain-5x5m B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS1-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 5, -5, -0.5 ]
+        rootPosition: [ 5, -5, -0.35 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 5, -5, -0.5 ]
+        initialRootPosition: [ 5, -5, -0.35 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -571,19 +573,20 @@ items:
         isEditable: false
     - 
       id: 202
-      name: "Terrain-Capsule5x5m C"
+      name: "Terrain-5x5m C"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS1-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 10, -5, -0.5 ]
+        rootPosition: [ 10, -5, -0.35 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 10, -5, -0.5 ]
+        initialRootPosition: [ 10, -5, -0.35 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -594,19 +597,20 @@ items:
         isEditable: false
     - 
       id: 203
-      name: "Terrain-Capsule5x5m D"
+      name: "Terrain-5x5m D"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS1-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 15, -4, -0.5 ]
+        rootPosition: [ 15, -4, -0.35]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 15, -4, -0.5 ]
+        initialRootPosition: [ 15, -4, -0.35 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -615,15 +619,24 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
+#    - 
+#      id: 40
+#      name: "WorldLogFile"
+#      plugin: Body
+#      class: WorldLogFileItem
+#      data: 
+#        filename: TS1.log
+#        timeStampSuffix: true
+#        recordingFrameRate: 100
     - 
-      id: 40
-      name: "WorldLogFile"
+      id: 1000
+      name: "materials-WRS2020"
       plugin: Body
-      class: WorldLogFileItem
+      class: MaterialTableItem
       data: 
-        filename: TS1.log
-        timeStampSuffix: true
-        recordingFrameRate: 100
+        file: "materials-WRS2020.yaml"
+        format: MATERIAL-TABLE-FILE
+
 views: 
   - 
     id: 1

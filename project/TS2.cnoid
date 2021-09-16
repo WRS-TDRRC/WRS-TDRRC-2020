@@ -419,15 +419,15 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
-    - 
-      id: 19
-      name: "WorldLogFile"
-      plugin: Body
-      class: WorldLogFileItem
-      data: 
-        filename: TS2.log
-        timeStampSuffix: true
-        recordingFrameRate: 100
+#    - 
+#      id: 19
+#      name: "WorldLogFile"
+#      plugin: Body
+#      class: WorldLogFileItem
+#      data: 
+#        filename: TS2.log
+#        timeStampSuffix: true
+#        recordingFrameRate: 100
     - 
       id: 20
       name: "TerrainSloop"
@@ -971,19 +971,20 @@ items:
             isEditable: true
     - 
       id: 200
-      name: "Terrain-Capsule5x5m A"
+      name: "Terrain-5x5m A"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS2-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 3, -1, -0.5 ]
+        rootPosition: [ 3, -1, -0.35 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 3, -1, -0.5 ]
+        initialRootPosition: [ 3, -1, -0.35 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -994,19 +995,20 @@ items:
         isEditable: false
     - 
       id: 203
-      name: "Terrain-Capsule5x5m D"
+      name: "Terrain-5x5m D"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS2-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 2, -4, -0.65 ]
+        rootPosition: [ 2, -4, -0.38 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 2, -4, -0.65 ]
+        initialRootPosition: [ 2, -4, -0.38 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -1017,19 +1019,20 @@ items:
         isEditable: false
     - 
       id: 201
-      name: "Terrain-Capsule5x5m B"
+      name: "Terrain-5x5m B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS2-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 25, -1, -0.6 ]
+        rootPosition: [ 25, -1, -0.39 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 25, -1, -0.6 ]
+        initialRootPosition: [ 25, -1, -0.39 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -1040,19 +1043,20 @@ items:
         isEditable: false
     - 
       id: 202
-      name: "Terrain-Capsule5x5m C"
+      name: "Terrain-5x5m C"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS2-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 25, -4, -0.5 ]
+        rootPosition: [ 25, -4, -0.36 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 25, -4, -0.5 ]
+        initialRootPosition: [ 25, -4, -0.36 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -1061,6 +1065,14 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
+    - 
+      id: 1000
+      name: "materials-WRS2020"
+      plugin: Body
+      class: MaterialTableItem
+      data: 
+        file: "materials-WRS2020.yaml"
+        format: MATERIAL-TABLE-FILE
 
 views: 
   - 
