@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# NEED python3 cnoid.util
+#  To prepare the cnoid.tuil for python3, only you have to do is simply building choreonoid-1.8,
+#  and do export PYTHONPATH="~/choreonoid/build/lib/choreonoid-1.8/python:${PYTHOPATH}"
+
+# To execute this script, the python module path must include the directory
+# containing the Choreonoid python modules.
+# Choreonoid python module directory usually exists at ${PREFIX}/lib/choreonoid-x.x/python.
+# The python module path can be added by setting the environmental variable PYTHONPATH.
 
 from math import *
 import random
@@ -75,7 +83,7 @@ for i in range(num_capsules_y):
         pitch = random.random() * 0.6 - 0.3
         R = cnoid.Util.rotFromRpy([roll, pitch, 0.0])
         aa = cnoid.Util.AngleAxis(R)
-        axis = aa.axis()
+        axis = aa.axis
             
         print(capsule_description.format(
             #rot = 90 * random.randint(0,3),
@@ -84,7 +92,7 @@ for i in range(num_capsules_y):
             rx = axis[0],
             ry = axis[1],
             rz = axis[2],
-            theta = degrees(aa.angle()),
+            theta = degrees(aa.angle),
             radius = capsule_radius,
             height = h * capsule_height_step
             ))
