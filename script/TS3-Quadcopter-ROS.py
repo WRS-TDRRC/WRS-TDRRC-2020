@@ -1,4 +1,4 @@
 import WRSUtil
 WRSUtil.loadProject(
-    "SingleSceneView", "TS1", [ "AGXSimulator", "AISTSimulator" ], "Quadcopter",
+    "SingleSceneView", "TS3", [ "AGXSimulator", "AISTSimulator" ], "Quadcopter",
     enableMulticopterSimulation = True, enableVisionSimulation = True, remoteType = "ROS")
