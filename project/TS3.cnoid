@@ -507,19 +507,20 @@ items:
         isEditable: true
     - 
       id: 200
-      name: "Terrain-Capsule5x5m A"
+      name: "Terrain-5x5m A"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 2, -2, -0.5 ]
+        rootPosition: [ 2, -2, -0.4 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 2, -2, -0.5 ]
+        initialRootPosition: [ 2, -2, -0.4 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -530,19 +531,20 @@ items:
         isEditable: false
     - 
       id: 201
-      name: "Terrain-Capsule5x5m B"
+      name: "Terrain-5x5m B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 7, -2, -0.5 ]
+        rootPosition: [ 7, -2, -0.4 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 7, -2, -0.5 ]
+        initialRootPosition: [ 7, -2, -0.4 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -553,19 +555,20 @@ items:
         isEditable: false
     - 
       id: 202
-      name: "Terrain-Capsule5x5m C"
+      name: "Terrain-5x5m C"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 12, -3, -0.5 ]
+        rootPosition: [ 12, -3, -0.4 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 12, -3, -0.5 ]
+        initialRootPosition: [ 12, -3, -0.4 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -576,19 +579,20 @@ items:
         isEditable: false
     - 
       id: 203
-      name: "Terrain-Capsule5x5m D"
+      name: "Terrain-5x5m D"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 17, -4, -0.5 ]
+        rootPosition: [ 17, -4, -0.4 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 17, -4, -0.5 ]
+        initialRootPosition: [ 17, -4, -0.4 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -599,19 +603,20 @@ items:
         isEditable: false
     - 
       id: 204
-      name: "Terrain-Capsule5x5m E"
+      name: "Terrain-5x5m E"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 23, -7, -0.5 ]
+        rootPosition: [ 23, -7, -0.4 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 23, -7, -0.5 ]
+        initialRootPosition: [ 23, -7, -0.4 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -622,19 +627,20 @@ items:
         isEditable: false
     - 
       id: 205
-      name: "Terrain-Capsule5x5m F"
+      name: "Terrain-5x5m F"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
+        modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
+#        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 28, -3, -0.5 ]
+        rootPosition: [ 28, -3, -0.4 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 28, -3, -0.5 ]
+        initialRootPosition: [ 28, -3, -0.4 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
