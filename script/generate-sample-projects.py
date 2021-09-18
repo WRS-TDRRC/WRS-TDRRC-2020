@@ -33,7 +33,8 @@ def write_project_script(filename, task, robot, interface):
     if not interface:
         f.write('"MultiSceneViews", ')
     else:
-        f.write('"SingleSceneView\", ')
+        f.write('"MultiSceneViews", ')
+#        f.write('"SingleSceneView\", ')
 
     # Task
     f.write('"{}", '.format(task))
