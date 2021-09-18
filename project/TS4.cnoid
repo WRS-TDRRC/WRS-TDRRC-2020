@@ -1248,17 +1248,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-L1.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.0, 0.72, 5.22 ]
+        rootPosition: [ 7.215, 1.59, 5.22 ]
         rootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.342020, -0.939693,
-           0.000000,  0.939693,  0.342020   ]
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.0, 0.72, 5.22 ]
+        initialRootPosition: [ 7.215, 1.59, 5.22 ]
         initialRootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.342020, -0.939693,
-           0.000000,  0.939693,  0.342020   ]
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1271,17 +1271,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-L2.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7, 0.694, 5.1 ]
+        rootPosition: [ 7.215, 1.615, 5.07 ]
         rootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.173648, -0.984808,
-           0.000000,  0.984808,  0.173648   ]
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7, 0.694, 5.1 ]
+        initialRootPosition: [ 7.215, 1.615, 5.07 ]
         initialRootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.173648, -0.984808,
-           0.000000,  0.984808,  0.173648   ]
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1294,17 +1294,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-L3.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.2, 0.6915, 5.1 ]
+        rootPosition: [ 7.015, 1.615, 5.07 ]
         rootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.087156, -0.996195,
-           0.000000,  0.996195,  0.087156   ]
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.2, 0.6915, 5.1 ]
+        initialRootPosition: [ 7.015, 1.615, 5.07 ]
         initialRootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.087156, -0.996195,
-           0.000000,  0.996195,  0.087156   ]
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1317,17 +1317,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-L4.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.2, 0.717, 5.22 ]
+        rootPosition: [ 7.015, 1.59, 5.22 ]
         rootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.342020, -0.939693,
-           0.000000,  0.939693,  0.342020   ]
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.2, 0.717, 5.22 ]
+        initialRootPosition: [ 7.015, 1.59, 5.22 ]
         initialRootAttitude: [ 
            1.000000,  0.000000,  0.000000,
-           0.000000,  0.342020, -0.939693,
-           0.000000,  0.939693,  0.342020   ]
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1340,17 +1340,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-U1.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.1137, 1.8126, 5.8123 ]
+        rootPosition: [ 7.0150, 1.8100, 5.8100 ]
         rootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.1137, 1.8126, 5.8123 ]
+        initialRootPosition: [ 7.0150, 1.8100, 5.8100 ]
         initialRootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1363,17 +1363,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-U2.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.2479, 1.9555, 5.7344 ]
+        rootPosition: [ 7.0150, 2.0626, 5.6792 ]
         rootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.2479, 1.9555, 5.7344 ]
+        initialRootPosition: [ 7.0150, 2.0626, 5.6792 ]
         initialRootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1386,17 +1386,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-U3.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.1134, 2.0626, 5.6792 ]
+        rootPosition: [ 7.2150, 2.0626, 5.6792 ]
         rootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.1134, 2.0626, 5.6792 ]
+        initialRootPosition: [ 7.2150, 2.0626, 5.6792 ]
         initialRootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1409,17 +1409,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-1-U4.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 6.9777, 1.9318, 5.7497 ]
+        rootPosition: [ 7.2150, 1.8100, 5.8100 ]
         rootAttitude: [ 
-          -0.079317, -0.996836,  0.005193,
-          -0.881094,  0.067669, -0.468075,
-           0.466243, -0.041702, -0.883673   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         jointPositions: [  ]
-        initialRootPosition: [ 6.9777, 1.9318, 5.7497 ]
+        initialRootPosition: [ 7.2150, 1.8100, 5.8100 ]
         initialRootAttitude: [ 
-          -0.079317, -0.996836,  0.005193,
-          -0.881094,  0.067669, -0.468075,
-           0.466243, -0.041702, -0.883673   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1524,17 +1524,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-2-U1.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.1137, 1.8126, 5.8123 ]
+        rootPosition: [ 7.2000, 0.6500, 6.1440 ]
         rootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.1137, 1.8126, 5.8123 ]
+        initialRootPosition: [ 7.2000, 0.6500, 6.1440 ]
         initialRootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1547,17 +1547,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-2-U2.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.2479, 1.9555, 5.7344 ]
+        rootPosition: [ 7.2000, 0.4700, 6.1740 ]
         rootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.2479, 1.9555, 5.7344 ]
+        initialRootPosition: [ 7.2000, 0.4700, 6.1740 ]
         initialRootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1570,17 +1570,17 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-2-U3.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 7.1134, 2.0626, 5.6792 ]
+        rootPosition: [ 7.0000, 0.4700, 6.1740 ]
         rootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
         jointPositions: [  ]
-        initialRootPosition: [ 7.1134, 2.0626, 5.6792 ]
+        initialRootPosition: [ 7.0000, 0.4700, 6.1740 ]
         initialRootAttitude: [ 
-          -0.079466, -0.996836,  0.001816,
-          -0.860396,  0.067669, -0.505114,
-           0.503393, -0.041702, -0.863051   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1593,17 +1593,385 @@ items:
       data: 
         modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-2-U4.body"
         currentBaseLink: "QR-BASE"
-        rootPosition: [ 6.9777, 1.9318, 5.7497 ]
+        rootPosition: [ 7.0000, 0.6500, 6.1440 ]
         rootAttitude: [ 
-          -0.079317, -0.996836,  0.005193,
-          -0.881094,  0.067669, -0.468075,
-           0.466243, -0.041702, -0.883673   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
         jointPositions: [  ]
-        initialRootPosition: [ 6.9777, 1.9318, 5.7497 ]
+        initialRootPosition: [ 7.0000, 0.6500, 6.1440 ]
         initialRootAttitude: [ 
-          -0.079317, -0.996836,  0.005193,
-          -0.881094,  0.067669, -0.468075,
-           0.466243, -0.041702, -0.883673   ]
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 331
+      name: "TargetTS4_5-50-3-L1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-L1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.45, 0.741, 5.20 ]
+        rootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.45, 0.741, 5.20 ]
+        initialRootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 332
+      name: "TargetTS4_5-50-3-L2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-L2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.45, 0.7180, 5.0800 ]
+        rootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.45, 0.7180, 5.0800 ]
+        initialRootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 333
+      name: "TargetTS4_5-50-3-L3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-L3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.7220, 5.0800 ]
+        rootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.7220, 5.0800 ]
+        initialRootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 334
+      name: "TargetTS4_5-50-3-L4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-L4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.74700, 5.2000 ]
+        rootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.74700, 5.2000 ]
+        initialRootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 335
+      name: "TargetTS4_5-50-3-U1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-U1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.6500, 6.1440 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.6500, 6.1440 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 336
+      name: "TargetTS4_5-50-3-U2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-U2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.4700, 6.1740 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.4700, 6.1740 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 337
+      name: "TargetTS4_5-50-3-U3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-U3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.4500, 0.4700, 6.1740 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.4500, 0.4700, 6.1740 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 338
+      name: "TargetTS4_5-50-3-U4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-3-U4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.4500, 0.6500, 6.1440 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.4500, 0.6500, 6.1440 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 341
+      name: "TargetTS4_5-50-4-L1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-L1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 1.5500, 5.1900 ]
+        rootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 1.5500, 5.1900 ]
+        initialRootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 342
+      name: "TargetTS4_5-50-4-L2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-L2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 1.5700, 5.0400 ]
+        rootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 1.5700, 5.0400 ]
+        initialRootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 343
+      name: "TargetTS4_5-50-4-L3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-L3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 1.5820, 5.0400 ]
+        rootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 1.5820, 5.0400 ]
+        initialRootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 344
+      name: "TargetTS4_5-50-4-L4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-L4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 1.5600, 5.1900 ]
+        rootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 1.5600, 5.1900 ]
+        initialRootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 345
+      name: "TargetTS4_5-50-4-U1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-U1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 1.8100, 5.8100 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 1.8100, 5.8100 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 346
+      name: "TargetTS4_5-50-4-U2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-U2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 2.0626, 5.6792 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 2.0626, 5.6792 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 347
+      name: "TargetTS4_5-50-4-U3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-U3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 2.0626, 5.6792 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 2.0626, 5.6792 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 348
+      name: "TargetTS4_5-50-4-U4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_5-50-4-U4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 1.8100, 5.8100 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 1.8100, 5.8100 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
         zmp: [ 0, 0, 0 ]
         collisionDetection: true
         selfCollisionDetection: false
@@ -1632,7 +2000,7 @@ views:
       140, 141, 142, 143, 144,
       200, 201, 202, 203, 204, 205,
       311, 312, 313, 314, 315, 316, 317, 318,
-#      321, 322, 323, 324, 325, 326, 327, 328,
+      321, 322, 323, 324, 325, 326, 327, 328,
       331, 332, 333, 334, 335, 336, 337, 338,
       341, 342, 343, 344, 345, 346, 347, 348 ]
       expanded: [ 10, 13, 15 ]
