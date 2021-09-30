@@ -1,4 +1,4 @@
-# WRS-TDRRC-2020  _PRACTICE VERSION_  
+# WRS-TDRRC-2020 _Competition Backyard_  
 The Competition Model of World Robot Summit 2020 Tunnel Disaster Response and Recovery Challenge.  
 This repository contains TS1, TS2, TS3, and TS4 task fields.  
 You can use these task fields for practice.  
@@ -137,4 +137,4 @@ You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS202
 
       $ build/bin/choreonoid PATH_TO_ARCHIVE/ARCHIVE_NAME.cnoid  
 
-Edited: 19th Sep. 2021
+Edited: 30th Sep. 2021
