@@ -21,12 +21,6 @@ TO GET MORE DETAILS, STRONGLY RECOMMEND TO VISIT THE FOLLOWING CHOREONOID SITES:
 We got information that the choreonoid developer does not have any plan to support the connection between choreonoid and RTM.  
 There is information that the RTM version 1.1.2 and 1.2.0 were used with older choreonoid. But there is no information on whether the choreonoid developer will support.  
 
-## UNRESOLVED ISSUE IN THE SIMULATION  
-### The hose issue in TS3  
- There are some chances the hose be able to explode by being run over by the robots.  
- Every running over the hose does not alway make the hose exploding, but the chances are not zero.
- The best way to avoid exploding of the hose is being careful not to run over the hose.  
- 
 ### ABOUT AGX Dynamics  
 We are considering the suitable version of AGX.  
 Currently, Version 2.30.4.0 (the former version was 2.29.4.0) is recommended by the committee.  
@@ -52,6 +46,12 @@ TO GET MORE DETAILS, STRONGLY RECOMMEND TO VISIT THE FOLLOWING CHOREONOID SITE:
   4. Other elementally packages for using choreonoid with ROS1  
     * [Installing ROS](https://choreonoid.org/en/documents/latest/ros/install-ros.html)  
 
+## UNRESOLVED ISSUE IN THE SIMULATION  
+### The hose issue in TS3  
+ There are some chances the hose be able to explode by being run over by the robots.  
+ Every running over the hose does not alway make the hose exploding, but the chances are not zero.
+ The best way to avoid exploding of the hose is being careful not to run over the hose.  
+ 
 ## How to use this repository WITH ROS on Unbuntu 18.04  
 If you have to install choreonoid now, please follow below commands:  
 At first, you should install AGX Dynamics. Please check above "ABOUT AGX DYNAMICS", and make sure the version of AGX.  
