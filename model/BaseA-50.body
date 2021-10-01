@@ -5,6 +5,7 @@ name: BaseA-50.0
 
 BLOCK: &BLOCK
   type: Transform
+  material: Default
   elements:
     -
       type: Shape
@@ -13,6 +14,7 @@ BLOCK: &BLOCK
 
 RING: &RING
   type: Transform
+  material: Default
   elements:
     -
       type: Shape

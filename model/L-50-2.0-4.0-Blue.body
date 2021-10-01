@@ -40,7 +40,7 @@ links:
   -
     name: Pipe-L-50-2.0-4.0
     jointType: free
-    material:
+    material: Default
     elements:
       -
         <<: *ROOT
