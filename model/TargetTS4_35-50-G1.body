@@ -1,7 +1,7 @@
 format: ChoreonoidBody
 formatVersion: 1.0
 angleUnit: degree
-name: TargetTS4_35-50-A1
+name: TargetTS4_35-50-G1
 
 links:
   -
@@ -27,7 +27,7 @@ links:
             texCoordIndex: [ 0, 1, 2, 3, -1 ]
           appearance:
             texture:
-              url: "resource/QRTS4.png"
+              url: "resource/QRTS4-G1.png"
       - # Base
         type: Shape
         rotation: [ 1, 0, 0, 90 ]
