@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while IFS=, read -r oldTargetName newTargetName
+do
+    echo "$oldTargetName" => "$newTargetName"
+    sed -i "s/${oldTargetName}/${newTargetName}/g" TS4-Pre.cnoid
+done < RenamingTargetName-list.csv

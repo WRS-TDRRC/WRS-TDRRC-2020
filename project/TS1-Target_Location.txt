@@ -1,0 +1,215 @@
+# Car Around (6)L1 or (1)R1: x = 12.5 , y = 1.6 or 1.2~0.8 , z = 0.01 [ 12.5, 1.6, 0.015 ]
+# Car Around (7)L2 or (2)R2: x = 10.0 , y = 2.6 or 0.4~0.2 , z = 0.01 [ 11.7, 2.6, 0.015 ]
+# Car Around (8)L3 or (3)R3: x = 10.0 , y = 2.6 or 0.4~0.2 , z = 0.01 [ 10.0, 2.6, 0.015 ]
+# Car Around (9)L4 or (4)R4: x =  8.2 , y = 2.6 or 0.4~0.2 , z = 0.01 [  8.2, 2.6, 0.015 ]
+# Car Around (10)L5or (5)R5: x =  7.5 , y = 1.8 or 1.1~0.8 , z = 0.01 [  7.5, 1.8, 0.015 ]
+
+# Car Outside: Front-R,C,L (ABC)F-rcl [ 12.2 or 12.6 or 12.2, 0.8 or 1.4 or 2.0, 0.58 ] 
+# Car Outside: Front-TireR            [ 11.5, 0.55, 0.6 ]
+# Car Outside: Side-Front  (D)S-f     [ 11.0, 2.25 or 0.55, 0.5 ] Roll = 45 or -45 
+# Car Outside: Side-Back   (D)S-r     [  9.04, 2.25 or 0.55, 0.5 ] Roll = 45 or -45
+# Car Outside: Rear-R,C,L  (FGH)R-rcl [  7.8 or 7.75 or 7.8 , 0.75 or 1.4 or 2.05, 0.67 ] Picth = -20.0
+# Car Outside: Bonnet-R,C,L(IJK)B-rcl [  11.9 or 11.95 or 11.9 , 0.85 or 1.4 or 1.95, 0.8 ] Picth = +20.0
+# Car Outside: Trunk-R,C,L(LMN)T-rcl  [  8.05 or 8.0 or 11.9 , 0.9 or 1.4 or 1.9, 1.03 or 1.04 or 1.03 ]
+
+
+Pitch = +20 Deg
+        rootAttitude: [ 
+          0.939693,  0.000000,  0.342020, 
+          0.000000,  1.000000,  0.000000, 
+         -0.342020,  0.000000,  0.939693 ]
+
+Pitch = -20 Deg
+        rootAttitude: [ 
+          0.939693,  0.000000, -0.342020, 
+          0.000000,  1.000000,  0.000000, 
+          0.342020,  0.000000,  0.939693 ]
+
+Roll = +45 Deg
+        rootAttitude: [ 
+          1.000000,  0.000000,     0.000000, 
+          0.000000,  0.707106781, -0.707106781, 
+          0.000000,  0.707106781,  0.707106781 ]
+
+Roll = -45 Deg
+        rootAttitude: [ 
+          1.000000,  0.000000,     0.000000, 
+          0.000000,  0.707106781,  0.707106781, 
+          0.000000, -0.707106781,  0.707106781 ]
+
+===========================================================================
+# Car Around (6) or (1): x = 12.5 , y = 1.6 or 1.2~0.8 , z = 0.01
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 12.5, 0.8, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.707106781, -0.707106781, 
+          0, 0.707106781, 0.707106781 ]
+
+     ----------------------------------------------------------------
+# Car Outside Tire?
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.5, 0.55, 0.6 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 6.123234e-17, -1, 
+          0, 1, 6.123234e-17 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.5, 0.76, 0.8721 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+     ----------------------------------------------------------------
+
+     ----------------------------------------------------------------
+# Car Outside : Side-Front (D)S-f
+        modelFile: "${SHARE}/WRS2020/model/TargetTS1_35-50_9.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.9733, 0.5451, 0.4956 ]
+        rootAttitude: [ 
+          1, -0, 0, 
+          0, 0.414083149, -0.91023906, 
+          0, 0.91023906, 0.414083149 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_8.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.9733179, 0.686023652, 0.477028981 ]
+        rootAttitude: [ 
+          1, -0, 0, 
+          0, 0.414083149, -0.91023906, 
+          0, 0.91023906, 0.414083149 ]
+     ----------------------------------------------------------------
+
+# Car Around (8) or (3): x = 10.0 , y = 2.6 or 0.4~0.2 , z = 0.01
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.2, 1, 0.55 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.2, 1, 0.55 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.825, 0.8, 0.8 ]
+        rootAttitude: [ 
+          6.123234e-17, 0, -1, 
+          0, 1, 0, 
+          1, 0, 6.123234e-17 ]
+
+# Car Around (10) or (5): x = 7.5 , y = 1.6 or 1.2~0.8 
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5, 0.8, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+
+
+==========================================================================
+
+     ----------------------------------------------------------------
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 12.5, 1.6, 0.01 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.707106781, -0.707106781, 
+          0, 0.707106781, 0.707106781 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_7.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 12.5, 1.6, 0.01 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.866025404, -0.5, 
+          0, 0.5, 0.866025404 ]
+     ----------------------------------------------------------------
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.2, 1.7, 0.565 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.5, -0.866025404, 
+          0, 0.866025404, 0.5 ]
+
+     ----------------------------------------------------------------
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.2, 1.4, 0.5 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.5, -0.866025404, 
+          0, 0.866025404, 0.5 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_6.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.2, 1.4, 0.6 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.5, -0.866025404, 
+          0, 0.866025404, 0.5 ]
+     ----------------------------------------------------------------
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.825, 1.4, 1.025 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+
+     ----------------------------------------------------------------
+# Car Outside: Rear Left (H)R-l
+        modelFile: "${SHARE}/WRS2020/model/TargetTS1_35-50_10.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.79332955, 2.0, 0.706656749 ]
+        rootAttitude: [ 
+          0.88146529, -1.11022302e-16, -0.472248813, 
+          -0.319711876, 0.735984129, -0.596750935, 
+          0.347567632, 0.67699879, 0.648744464 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_10.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.79332955, 2.14664078, 0.706656749 ]
+        rootAttitude: [ 
+          0.88146529, -1.11022302e-16, -0.472248813, 
+          -0.319711876, 0.735984129, -0.596750935, 
+          0.347567632, 0.67699879, 0.648744464 ]
+     ----------------------------------------------------------------
+
+     ----------------------------------------------------------------
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_9.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5, 1.2, 0.01 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.707106781, -0.707106781, 
+          0, 0.707106781, 0.707106781 ]
+
+        modelFile: "${SHARE}/WRS2018/model/TargetT2_35-50_3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5, 1.6, 0.01 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0.707106781, -0.707106781, 
+          0, 0.707106781, 0.707106781 ]
+     ----------------------------------------------------------------
+
+
