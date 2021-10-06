@@ -1,0 +1,16 @@
+#!/bin/bash
+
+while IFS=, read -r filename qrid notes
+do
+    echo "${filename}" : "${qrid}"
+    cp TargetTS4_35-100-XXX.body $filename
+    sed -i "s/XXX/${qrid}/g" $filename
+done < TargetModel100-list.csv
+
+while IFS=, read -r filename qrid notes
+do
+    echo "${filename}" : "${qrid}"
+    cp TargetTS4_35-50-XXX.body $filename
+    sed -i "s/XXX/${qrid}/g" $filename
+done < TargetModel50-list.csv
+
