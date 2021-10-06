@@ -5,4 +5,7 @@ do
     echo "$filename" : "$qrcode"
     qrencode -l Q -v 1 -m 1 -s 12 -o qr-tmp.png $qrcode
     convert -define png:color-type=2 -sample 256x256 qr-tmp.png $filename
-done < QR-list.csv
+done < QR-list-Pre.csv
+#done < QR-list-Semi.csv
+#done < QR-list-Final.csv
+#done < QR-list.csv
