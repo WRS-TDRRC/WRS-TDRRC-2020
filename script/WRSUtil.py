@@ -89,6 +89,10 @@ def loadProject(
 
         if enableMulticopterSimulation:
             multicopterSimulator = MulticopterSimulatorItem()
+            try:
+                multicopterSimulator.setAirDefinitionFile(os.path.join(projectdir, "TS4-air-around-fan.dat"))
+            except:
+                pass
             for simulator in world.getDescendantItems(SimulatorItem):
                 simulator.addChildItem(multicopterSimulator.duplicate())
 
