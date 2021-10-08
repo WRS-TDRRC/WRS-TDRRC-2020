@@ -3,7 +3,14 @@ formatVersion: 1.0
 angleUnit: degree
 name: BoxTerrain
 
-APPEARANCE: &APP
+ROAD_TEXTURE_FILE: &ROAD_TEXTURE_FILE "resource/Asphalt_New.jpg"
+APP: &APP
+  texture: &TEXTURE_ROAD
+    url: *ROAD_TEXTURE_FILE
+    repeatS: true
+    repeatT: true
+
+APPEARANCE: &APP_GRAY
   material:
     diffuseColor: [ 0.56, 0.56, 0.56 ]
 

@@ -1,0 +1,37 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: Capsule20x100
+
+ROAD_TEXTURE_FILE: &ROAD_TEXTURE_FILE "resource/Asphalt_New.jpg"
+APP: &APP
+  texture: &TEXTURE_ROAD
+    url: *ROAD_TEXTURE_FILE
+    repeatS: true
+    repeatT: true
+
+APPEARANCE: &APP_GRAY
+  material:
+    diffuseColor: [ 0.56, 0.56, 0.56 ]
+
+links:
+  -
+    name: Capsule20x100
+    jointType: fixed
+    elements:
+      -
+        type: Transform
+        translation: [ 0, 0, 0 ]
+        elements:
+          -
+            type: Shape
+            translation: [ 0, 0, 0 ]
+            rotation: [ 1, 1, 1, 0 ]
+            geometry:
+              type: Capsule
+              radius: 0.1
+              height: 1.0
+            appearance: *APP
+#              material:
+#                diffuseColor: [ 0.5, 0.5, 0.5 ]
+

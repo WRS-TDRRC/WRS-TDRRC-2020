@@ -1,0 +1,59 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: L-50-2.0-4.0-Blue
+
+APP:
+  appearance: &APP
+    material:
+      diffuseColor: [ 0.0, 0.0, 0.5 ]
+
+ROOT: &ROOT
+  -
+    type: RigidBody
+    centerOfMass: [ 0, 0, 0 ]
+    mass: 2.5
+#    mass: 2.0
+    inertia: [
+      0.0066697917, 0,          0,
+      0,          0.0066697917, 0,
+      0,          0,          0.0000062500 ]
+    elements:
+        type: Shape
+        geometry: { type: Cylinder, radius: 0.025, height: 2.46875 }
+        appearance: *APP
+
+BRANCH: &BRANCH
+  -
+    type: RigidBody
+    centerOfMass: [ 0, 0, 0 ]
+    mass: 0.59375
+#    mass: 0.475
+    inertia: [
+      0.0000900521, 0,          0,
+      0,          0.0000900521, 0,
+      0,          0,          0.0000014844 ]
+    elements:
+      type: Shape
+      geometry: { type: Cylinder, radius: 0.025, height: 0.475 }
+      appearance: *APP
+
+links:
+  -
+    name: Pipe-L-50-2.0-4.0
+    jointType: free
+    material: Default
+    elements:
+      -
+        <<: *ROOT
+      -
+        <<: *BRANCH
+        translation: [ 0.2375, 1.234375, 0 ]
+        rotation: [ 0, 0, 1, 90.0 ]
+      -
+        type: Shape
+        translation: [ 0, 1.234375, 0 ]
+#        translation: [ 0, 0.9875, 0 ]
+        geometry: { type: Sphere, radius: 0.025 }
+        appearance: *APP
+
