@@ -199,11 +199,11 @@ items:
         recordingFrameRate: 100
     - 
       id: 100
-      name: "TargetTS4_35-50-A1"
+      name: "TargetTS4_35-100-A1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-A1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -222,11 +222,11 @@ items:
         isEditable: false
     - 
       id: 101
-      name: "TargetTS4_35-50-A2"
+      name: "TargetTS4_35-100-A2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-A2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -245,11 +245,11 @@ items:
         isEditable: false
     - 
       id: 102
-      name: "TargetTS4_35-50-A3"
+      name: "TargetTS4_35-100-A3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-A3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -268,11 +268,11 @@ items:
         isEditable: false
     - 
       id: 103
-      name: "TargetTS4_35-50-A4"
+      name: "TargetTS4_35-100-A4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-A4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -291,11 +291,11 @@ items:
         isEditable: false
     - 
       id: 104
-      name: "TargetTS4_35-50-A5"
+      name: "TargetTS4_35-100-A5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-A5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -315,11 +315,11 @@ items:
 
     - 
       id: 105
-      name: "TargetTS4_35-50-B1"
+      name: "TargetTS4_35-100-B1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-B1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.5000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -338,11 +338,11 @@ items:
         isEditable: false
     - 
       id: 106
-      name: "TargetTS4_35-50-B2"
+      name: "TargetTS4_35-100-B2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-B2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.5000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -361,11 +361,11 @@ items:
         isEditable: false
     - 
       id: 107
-      name: "TargetTS4_35-50-B3"
+      name: "TargetTS4_35-100-B3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-B3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.5000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -384,11 +384,11 @@ items:
         isEditable: false
     - 
       id: 108
-      name: "TargetTS4_35-50-B4"
+      name: "TargetTS4_35-100-B4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-B4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.5000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -407,11 +407,11 @@ items:
         isEditable: false
     - 
       id: 109
-      name: "TargetTS4_35-50-B5"
+      name: "TargetTS4_35-100-B5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-B5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.5000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -431,11 +431,11 @@ items:
 
     - 
       id: 110
-      name: "TargetTS4_35-50-C1"
+      name: "TargetTS4_35-100-C1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-C1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.0000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -454,11 +454,11 @@ items:
         isEditable: false
     - 
       id: 111
-      name: "TargetTS4_35-50-C2"
+      name: "TargetTS4_35-100-C2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-C2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.0000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -477,11 +477,11 @@ items:
         isEditable: false
     - 
       id: 112
-      name: "TargetTS4_35-50-C3"
+      name: "TargetTS4_35-100-C3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-C3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.0000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -500,11 +500,11 @@ items:
         isEditable: false
     - 
       id: 113
-      name: "TargetTS4_35-50-C4"
+      name: "TargetTS4_35-100-C4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-C4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.0000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -523,11 +523,11 @@ items:
         isEditable: false
     - 
       id: 114
-      name: "TargetTS4_35-50-C5"
+      name: "TargetTS4_35-100-C5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-C5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.0000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -547,11 +547,11 @@ items:
 
     - 
       id: 115
-      name: "TargetTS4_35-50-D1"
+      name: "TargetTS4_35-100-D1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-D1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -570,11 +570,11 @@ items:
         isEditable: false
     - 
       id: 116
-      name: "TargetTS4_35-50-D2"
+      name: "TargetTS4_35-100-D2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-D2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -593,11 +593,11 @@ items:
         isEditable: false
     - 
       id: 117
-      name: "TargetTS4_35-50-D3"
+      name: "TargetTS4_35-100-D3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-D3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -616,11 +616,11 @@ items:
         isEditable: false
     - 
       id: 118
-      name: "TargetTS4_35-50-D4"
+      name: "TargetTS4_35-100-D4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-D4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -639,11 +639,11 @@ items:
         isEditable: false
     - 
       id: 119
-      name: "TargetTS4_35-50-D5"
+      name: "TargetTS4_35-100-D5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-D5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -663,11 +663,11 @@ items:
 
     - 
       id: 120
-      name: "TargetTS4_35-50-E1"
+      name: "TargetTS4_35-100-E1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-E1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.0000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -686,11 +686,11 @@ items:
         isEditable: false
     - 
       id: 121
-      name: "TargetTS4_35-50-E2"
+      name: "TargetTS4_35-100-E2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-E2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.0000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -709,11 +709,11 @@ items:
         isEditable: false
     - 
       id: 122
-      name: "TargetTS4_35-50-E3"
+      name: "TargetTS4_35-100-E3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-E3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.0000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -732,11 +732,11 @@ items:
         isEditable: false
     - 
       id: 123
-      name: "TargetTS4_35-50-E4"
+      name: "TargetTS4_35-100-E4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-E4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.0000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -755,11 +755,11 @@ items:
         isEditable: false
     - 
       id: 124
-      name: "TargetTS4_35-50-E5"
+      name: "TargetTS4_35-100-E5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-E5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.0000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -779,11 +779,11 @@ items:
 
     - 
       id: 125
-      name: "TargetTS4_35-50-F1"
+      name: "TargetTS4_35-100-F1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-F1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.5000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -802,11 +802,11 @@ items:
         isEditable: false
     - 
       id: 126
-      name: "TargetTS4_35-50-F2"
+      name: "TargetTS4_35-100-F2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-F2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.5000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -825,11 +825,11 @@ items:
         isEditable: false
     - 
       id: 127
-      name: "TargetTS4_35-50-F3"
+      name: "TargetTS4_35-100-F3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-F3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.5000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -848,11 +848,11 @@ items:
         isEditable: false
     - 
       id: 128
-      name: "TargetTS4_35-50-F4"
+      name: "TargetTS4_35-100-F4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-F4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.5000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -871,11 +871,11 @@ items:
         isEditable: false
     - 
       id: 129
-      name: "TargetTS4_35-50-F5"
+      name: "TargetTS4_35-100-F5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-F5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 9.5000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -895,11 +895,11 @@ items:
 
     - 
       id: 130
-      name: "TargetTS4_35-50-G1"
+      name: "TargetTS4_35-100-G1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-G1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.0000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -918,11 +918,11 @@ items:
         isEditable: false
     - 
       id: 131
-      name: "TargetTS4_35-50-G2"
+      name: "TargetTS4_35-100-G2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-G2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.0000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -941,11 +941,11 @@ items:
         isEditable: false
     - 
       id: 132
-      name: "TargetTS4_35-50-G3"
+      name: "TargetTS4_35-100-G3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-G3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.0000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -964,11 +964,11 @@ items:
         isEditable: false
     - 
       id: 133
-      name: "TargetTS4_35-50-G4"
+      name: "TargetTS4_35-100-G4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-G4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.0000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -987,11 +987,11 @@ items:
         isEditable: false
     - 
       id: 134
-      name: "TargetTS4_35-50-G5"
+      name: "TargetTS4_35-100-G5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-G5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.0000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -1011,11 +1011,11 @@ items:
 
     - 
       id: 135
-      name: "TargetTS4_35-50-H1"
+      name: "TargetTS4_35-100-H1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-H1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.5000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -1034,11 +1034,11 @@ items:
         isEditable: false
     - 
       id: 136
-      name: "TargetTS4_35-50-H2"
+      name: "TargetTS4_35-100-H2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-H2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.5000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -1057,11 +1057,11 @@ items:
         isEditable: false
     - 
       id: 137
-      name: "TargetTS4_35-50-H3"
+      name: "TargetTS4_35-100-H3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-H3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.5000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -1080,11 +1080,11 @@ items:
         isEditable: false
     - 
       id: 138
-      name: "TargetTS4_35-50-H4"
+      name: "TargetTS4_35-100-H4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-H4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.5000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -1103,11 +1103,11 @@ items:
         isEditable: false
     - 
       id: 139
-      name: "TargetTS4_35-50-H5"
+      name: "TargetTS4_35-100-H5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-H5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 10.5000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -1127,11 +1127,11 @@ items:
 
     - 
       id: 140
-      name: "TargetTS4_35-50-I1"
+      name: "TargetTS4_35-100-I1"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-I1.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I1.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 11.0000, 4.3813, 2.3000 ]
         rootAttitude: [ 
@@ -1150,11 +1150,11 @@ items:
         isEditable: false
     - 
       id: 141
-      name: "TargetTS4_35-50-I2"
+      name: "TargetTS4_35-100-I2"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-I2.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I2.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 11.0000, 4.4470, 1.8000 ]
         rootAttitude: [ 
@@ -1173,11 +1173,11 @@ items:
         isEditable: false
     - 
       id: 142
-      name: "TargetTS4_35-50-I3"
+      name: "TargetTS4_35-100-I3"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-I3.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I3.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 11.0000, 4.4008, 1.3000 ]
         rootAttitude: [ 
@@ -1196,11 +1196,11 @@ items:
         isEditable: false
     - 
       id: 143
-      name: "TargetTS4_35-50-I4"
+      name: "TargetTS4_35-100-I4"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-I4.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I4.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 11.0000, 4.3036, 0.8000 ]
         rootAttitude: [ 
@@ -1219,11 +1219,11 @@ items:
         isEditable: false
     - 
       id: 144
-      name: "TargetTS4_35-50-I5"
+      name: "TargetTS4_35-100-I5"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-I5.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I5.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 11.0000, 4.2091, 0.3000 ]
         rootAttitude: [ 
@@ -1242,11 +1242,11 @@ items:
         isEditable: false
     - 
       id: 311
-      name: "TargetTS4_35-50-LFJ-R"
+      name: "TargetTS4_35-100-LFJ-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFJ-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.215, 1.59, 5.22 ]
         rootAttitude: [ 
@@ -1265,11 +1265,11 @@ items:
         isEditable: false
     - 
       id: 312
-      name: "TargetTS4_35-50-LFJ-G"
+      name: "TargetTS4_35-100-LFJ-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFJ-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.215, 1.615, 5.07 ]
         rootAttitude: [ 
@@ -1288,11 +1288,11 @@ items:
         isEditable: false
     - 
       id: 313
-      name: "TargetTS4_35-50-LFJ-B"
+      name: "TargetTS4_35-100-LFJ-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFJ-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.015, 1.615, 5.07 ]
         rootAttitude: [ 
@@ -1311,11 +1311,11 @@ items:
         isEditable: false
     - 
       id: 314
-      name: "TargetTS4_35-50-LFJ-W"
+      name: "TargetTS4_35-100-LFJ-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFJ-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.015, 1.59, 5.22 ]
         rootAttitude: [ 
@@ -1334,11 +1334,11 @@ items:
         isEditable: false
     - 
       id: 315
-      name: "TargetTS4_35-50-LFC-R"
+      name: "TargetTS4_35-100-LFC-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFC-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0150, 1.8100, 5.8100 ]
         rootAttitude: [ 
@@ -1357,11 +1357,11 @@ items:
         isEditable: false
     - 
       id: 316
-      name: "TargetTS4_35-50-LFC-G"
+      name: "TargetTS4_35-100-LFC-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFC-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0150, 2.0626, 5.6792 ]
         rootAttitude: [ 
@@ -1380,11 +1380,11 @@ items:
         isEditable: false
     - 
       id: 317
-      name: "TargetTS4_35-50-LFC-B"
+      name: "TargetTS4_35-100-LFC-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFC-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.2150, 2.0626, 5.6792 ]
         rootAttitude: [ 
@@ -1403,11 +1403,11 @@ items:
         isEditable: false
     - 
       id: 318
-      name: "TargetTS4_35-50-LFC-W"
+      name: "TargetTS4_35-100-LFC-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LFC-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.2150, 1.8100, 5.8100 ]
         rootAttitude: [ 
@@ -1426,11 +1426,11 @@ items:
         isEditable: false
     - 
       id: 321
-      name: "TargetTS4_35-50-RFJ-R"
+      name: "TargetTS4_35-100-RFJ-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFJ-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0, 0.72, 5.22 ]
         rootAttitude: [ 
@@ -1449,11 +1449,11 @@ items:
         isEditable: false
     - 
       id: 322
-      name: "TargetTS4_35-50-RFJ-G"
+      name: "TargetTS4_35-100-RFJ-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFJ-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7, 0.694, 5.1 ]
         rootAttitude: [ 
@@ -1472,11 +1472,11 @@ items:
         isEditable: false
     - 
       id: 323
-      name: "TargetTS4_35-50-RFJ-B"
+      name: "TargetTS4_35-100-RFJ-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFJ-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.2, 0.6915, 5.1 ]
         rootAttitude: [ 
@@ -1495,11 +1495,11 @@ items:
         isEditable: false
     - 
       id: 324
-      name: "TargetTS4_35-50-RFJ-W"
+      name: "TargetTS4_35-100-RFJ-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFJ-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.2, 0.717, 5.22 ]
         rootAttitude: [ 
@@ -1518,11 +1518,11 @@ items:
         isEditable: false
     - 
       id: 325
-      name: "TargetTS4_35-50-RFC-R"
+      name: "TargetTS4_35-100-RFC-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFC-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.2000, 0.6500, 6.1440 ]
         rootAttitude: [ 
@@ -1541,11 +1541,11 @@ items:
         isEditable: false
     - 
       id: 326
-      name: "TargetTS4_35-50-RFC-G"
+      name: "TargetTS4_35-100-RFC-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFC-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.2000, 0.4700, 6.1740 ]
         rootAttitude: [ 
@@ -1564,11 +1564,11 @@ items:
         isEditable: false
     - 
       id: 327
-      name: "TargetTS4_35-50-RFC-B"
+      name: "TargetTS4_35-100-RFC-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFC-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 0.4700, 6.1740 ]
         rootAttitude: [ 
@@ -1587,11 +1587,11 @@ items:
         isEditable: false
     - 
       id: 328
-      name: "TargetTS4_35-50-RFC-W"
+      name: "TargetTS4_35-100-RFC-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RFC-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 7.0000, 0.6500, 6.1440 ]
         rootAttitude: [ 
@@ -1610,11 +1610,11 @@ items:
         isEditable: false
     - 
       id: 331
-      name: "TargetTS4_35-50-RBJ-R"
+      name: "TargetTS4_35-100-RBJ-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBJ-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.45, 0.741, 5.20 ]
         rootAttitude: [ 
@@ -1633,11 +1633,11 @@ items:
         isEditable: false
     - 
       id: 332
-      name: "TargetTS4_35-50-RBJ-G"
+      name: "TargetTS4_35-100-RBJ-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBJ-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.45, 0.7180, 5.0800 ]
         rootAttitude: [ 
@@ -1656,11 +1656,11 @@ items:
         isEditable: false
     - 
       id: 333
-      name: "TargetTS4_35-50-RBJ-B"
+      name: "TargetTS4_35-100-RBJ-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBJ-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.6500, 0.7220, 5.0800 ]
         rootAttitude: [ 
@@ -1679,11 +1679,11 @@ items:
         isEditable: false
     - 
       id: 334
-      name: "TargetTS4_35-50-RBJ-W"
+      name: "TargetTS4_35-100-RBJ-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBJ-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.6500, 0.74700, 5.2000 ]
         rootAttitude: [ 
@@ -1702,11 +1702,11 @@ items:
         isEditable: false
     - 
       id: 335
-      name: "TargetTS4_35-50-RBC-R"
+      name: "TargetTS4_35-100-RBC-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBC-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.6500, 0.6500, 6.1440 ]
         rootAttitude: [ 
@@ -1725,11 +1725,11 @@ items:
         isEditable: false
     - 
       id: 336
-      name: "TargetTS4_35-50-RBC-G"
+      name: "TargetTS4_35-100-RBC-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBC-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.6500, 0.4700, 6.1740 ]
         rootAttitude: [ 
@@ -1748,11 +1748,11 @@ items:
         isEditable: false
     - 
       id: 337
-      name: "TargetTS4_35-50-RBC-B"
+      name: "TargetTS4_35-100-RBC-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBC-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.4500, 0.4700, 6.1740 ]
         rootAttitude: [ 
@@ -1771,11 +1771,11 @@ items:
         isEditable: false
     - 
       id: 338
-      name: "TargetTS4_35-50-RBC-W"
+      name: "TargetTS4_35-100-RBC-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-RBC-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.4500, 0.6500, 6.1440 ]
         rootAttitude: [ 
@@ -1794,11 +1794,11 @@ items:
         isEditable: false
     - 
       id: 341
-      name: "TargetTS4_35-50-LBJ-R"
+      name: "TargetTS4_35-100-LBJ-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBJ-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.7300, 1.5500, 5.1900 ]
         rootAttitude: [ 
@@ -1817,11 +1817,11 @@ items:
         isEditable: false
     - 
       id: 342
-      name: "TargetTS4_35-50-LBJ-G"
+      name: "TargetTS4_35-100-LBJ-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBJ-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.7300, 1.5700, 5.0400 ]
         rootAttitude: [ 
@@ -1840,11 +1840,11 @@ items:
         isEditable: false
     - 
       id: 343
-      name: "TargetTS4_35-50-LBJ-B"
+      name: "TargetTS4_35-100-LBJ-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBJ-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5300, 1.5820, 5.0400 ]
         rootAttitude: [ 
@@ -1863,11 +1863,11 @@ items:
         isEditable: false
     - 
       id: 344
-      name: "TargetTS4_35-50-LBJ-W"
+      name: "TargetTS4_35-100-LBJ-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBJ-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5300, 1.5600, 5.1900 ]
         rootAttitude: [ 
@@ -1886,11 +1886,11 @@ items:
         isEditable: false
     - 
       id: 345
-      name: "TargetTS4_35-50-LBC-R"
+      name: "TargetTS4_35-100-LBC-R"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBC-R.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-R.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5300, 1.8100, 5.8100 ]
         rootAttitude: [ 
@@ -1909,11 +1909,11 @@ items:
         isEditable: false
     - 
       id: 346
-      name: "TargetTS4_35-50-LBC-G"
+      name: "TargetTS4_35-100-LBC-G"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBC-G.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-G.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.5300, 2.0626, 5.6792 ]
         rootAttitude: [ 
@@ -1932,11 +1932,11 @@ items:
         isEditable: false
     - 
       id: 347
-      name: "TargetTS4_35-50-LBC-B"
+      name: "TargetTS4_35-100-LBC-B"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBC-B.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-B.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.7300, 2.0626, 5.6792 ]
         rootAttitude: [ 
@@ -1955,11 +1955,11 @@ items:
         isEditable: false
     - 
       id: 348
-      name: "TargetTS4_35-50-LBC-W"
+      name: "TargetTS4_35-100-LBC-W"
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-50-LBC-W.body"
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-W.body"
         currentBaseLink: "QR-BASE"
         rootPosition: [ 8.7300, 1.8100, 5.8100 ]
         rootAttitude: [ 

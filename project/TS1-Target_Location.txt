@@ -10,7 +10,7 @@
 # Car Outside: Side-Back   (D)S-r     [  9.04, 2.25 or 0.55, 0.5 ] Roll = 45 or -45
 # Car Outside: Rear-R,C,L  (FGH)R-rcl [  7.8 or 7.75 or 7.8 , 0.75 or 1.4 or 2.05, 0.67 ] Picth = -20.0
 # Car Outside: Bonnet-R,C,L(IJK)B-rcl [  11.9 or 11.95 or 11.9 , 0.85 or 1.4 or 1.95, 0.8 ] Picth = +20.0
-# Car Outside: Trunk-R,C,L(LMN)T-rcl  [  8.05 or 8.0 or 11.9 , 0.9 or 1.4 or 1.9, 1.03 or 1.04 or 1.03 ]
+# Car Outside: Trunk-R,C,L(LMN)T-rcl  [  8.05 or 8.0 or 8.05 , 0.9 or 1.4 or 1.9, 1.03 or 1.04 or 1.03 ]
 
 
 Pitch = +20 Deg
