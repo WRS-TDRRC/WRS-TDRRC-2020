@@ -514,13 +514,13 @@ items:
         modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
 #        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 7, -4.5, -0.35 ]
+        rootPosition: [ 7, -4.5, -0.25 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 7, -4.5, -0.35 ]
+        initialRootPosition: [ 7, -4.5, -0.25 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -538,13 +538,13 @@ items:
         modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
 #        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 7, -2, -0.35 ]
+        rootPosition: [ 7, -2, -0.25 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 7, -2, -0.35 ]
+        initialRootPosition: [ 7, -2, -0.25 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -562,13 +562,13 @@ items:
         modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
 #        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 12, -3, -0.35 ]
+        rootPosition: [ 12, -3, -0.25 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 12, -3, -0.35 ]
+        initialRootPosition: [ 12, -3, -0.25 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -586,13 +586,13 @@ items:
         modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
 #        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 17, -4, -0.35 ]
+        rootPosition: [ 17, -4, -0.25 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 17, -4, -0.35 ]
+        initialRootPosition: [ 17, -4, -0.25 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -610,13 +610,13 @@ items:
         modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
 #        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 26, -4.5, -0.35 ]
+        rootPosition: [ 26, -4.5, -0.25 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 26, -4.5, -0.35 ]
+        initialRootPosition: [ 26, -4.5, -0.25 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -634,13 +634,13 @@ items:
         modelFile: "${SHARE}/WRS2020/model/TerrainTS3-Box5x5m.body"
 #        modelFile: "${SHARE}/WRS2020/model/TerrainTS-Capsule5x5m.body"
         currentBaseLink: ""
-        rootPosition: [ 28, -3, -0.35 ]
+        rootPosition: [ 28, -3, -0.25 ]
         rootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
           0, 0, 1 ]
         jointPositions: [  ]
-        initialRootPosition: [ 28, -3, -0.35 ]
+        initialRootPosition: [ 28, -3, -0.25 ]
         initialRootAttitude: [ 
           1, 0, 0, 
           0, 1, 0, 
@@ -756,7 +756,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M-S.body"
+        modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M-F.body"
         currentBaseLink: "1"
         rootPosition: [ 26.9714, -2.3133, 0 ]
         rootAttitude: [ 
@@ -779,7 +779,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M-S.body"
+        modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M-F.body"
         currentBaseLink: "1"
         rootPosition: [ 21.9366, -2.6677, 0 ]
         rootAttitude: [ 
@@ -802,7 +802,7 @@ items:
       plugin: Body
       class: BodyItem
       data: 
-        modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M-S.body"
+        modelFile: "${SHARE}/WRS2020/model/Terrain_sloop2_M-F.body"
         currentBaseLink: "1"
         rootPosition: [ 30.0, 1.8, 0 ]
         rootAttitude: [ 
