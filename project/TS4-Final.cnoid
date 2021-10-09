@@ -1,0 +1,2025 @@
+items: 
+  id: 0
+  name: "Root"
+  plugin: Base
+  class: RootItem
+  children: 
+    - 
+      id: 1
+      name: "TunnelWall60m-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TunnelWall60m-R.body"
+        currentBaseLink: "1_Base"
+        rootPosition: [ 0, 0, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 0, 0, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 2
+      name: "TunnelWall60m-L"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TunnelWall60m-L.body"
+        currentBaseLink: "1_Base"
+        rootPosition: [ 0, 0, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 0, 0, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 3
+      name: "RoadSurface"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/RoadSurface.body"
+        currentBaseLink: "Base"
+        rootPosition: [ 0, 0, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 0, 0, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 4
+      name: "JetFan"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/JetFan2020.body"
+        currentBaseLink: "Base"
+        rootPosition: [ 0, 5, 0.11 ]
+        rootAttitude: [ 
+          0, 1, 0, 
+         -1, 0, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 0, 5, 0.11 ]
+        initialRootAttitude: [ 
+          0, 1, 0, 
+         -1, 0, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 6
+      name: "Flag2R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/Flag2R.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 18, -3, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 18, -3, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 7
+      name: "Flag2L"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/Flag2L.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 18, 3, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 18, 3, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 8
+      name: "Flag1R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/Flag1R.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 4, -3, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 4, -3, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 9
+      name: "Flag1L"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/Flag1L.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 4, 3, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 4, 3, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+#    - 
+#      id: 40
+#      name: "WorldLogFile"
+#      plugin: Body
+#      class: WorldLogFileItem
+#      data: 
+#        filename: TS4.log
+#        timeStampSuffix: true
+#        recordingFrameRate: 100
+    - 
+      id: 100
+      name: "TargetTS4_35-100-A1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 101
+      name: "TargetTS4_35-100-A2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 102
+      name: "TargetTS4_35-100-A3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 103
+      name: "TargetTS4_35-100-A4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 104
+      name: "TargetTS4_35-100-A5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-A5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 105
+      name: "TargetTS4_35-100-B1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.5000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 106
+      name: "TargetTS4_35-100-B2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.5000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 107
+      name: "TargetTS4_35-100-B3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.5000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 108
+      name: "TargetTS4_35-100-B4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.5000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 109
+      name: "TargetTS4_35-100-B5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-B5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.5000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.5000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 110
+      name: "TargetTS4_35-100-C1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.0000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.0000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 111
+      name: "TargetTS4_35-100-C2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.0000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.0000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 112
+      name: "TargetTS4_35-100-C3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.0000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.0000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 113
+      name: "TargetTS4_35-100-C4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.0000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.0000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 114
+      name: "TargetTS4_35-100-C5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-C5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.0000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.0000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 115
+      name: "TargetTS4_35-100-D1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 116
+      name: "TargetTS4_35-100-D2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 117
+      name: "TargetTS4_35-100-D3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 118
+      name: "TargetTS4_35-100-D4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 119
+      name: "TargetTS4_35-100-D5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-D5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 120
+      name: "TargetTS4_35-100-E1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.0000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.0000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 121
+      name: "TargetTS4_35-100-E2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.0000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.0000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 122
+      name: "TargetTS4_35-100-E3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.0000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.0000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 123
+      name: "TargetTS4_35-100-E4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.0000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.0000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 124
+      name: "TargetTS4_35-100-E5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-E5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.0000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.0000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 125
+      name: "TargetTS4_35-100-F1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.5000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.5000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 126
+      name: "TargetTS4_35-100-F2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.5000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.5000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 127
+      name: "TargetTS4_35-100-F3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.5000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.5000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 128
+      name: "TargetTS4_35-100-F4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.5000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.5000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 129
+      name: "TargetTS4_35-100-F5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-F5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 9.5000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 9.5000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 130
+      name: "TargetTS4_35-100-G1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.0000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.0000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 131
+      name: "TargetTS4_35-100-G2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.0000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.0000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 132
+      name: "TargetTS4_35-100-G3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.0000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.0000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 133
+      name: "TargetTS4_35-100-G4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.0000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.0000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 134
+      name: "TargetTS4_35-100-G5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-G5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.0000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.0000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 135
+      name: "TargetTS4_35-100-H1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.5000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.5000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 136
+      name: "TargetTS4_35-100-H2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.5000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.5000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 137
+      name: "TargetTS4_35-100-H3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.5000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.5000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 138
+      name: "TargetTS4_35-100-H4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.5000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.5000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 139
+      name: "TargetTS4_35-100-H5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-H5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 10.5000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.5000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+
+    - 
+      id: 140
+      name: "TargetTS4_35-100-I1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I1.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.0000, 4.3813, 2.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.0000, 4.3813, 2.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144251, -0.989541,
+           0.000000,  0.989541, -0.144251   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 141
+      name: "TargetTS4_35-100-I2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I2.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.0000, 4.4470, 1.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.0000, 4.4470, 1.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.144978, -0.989435,
+           0.000000,  0.989435, -0.144978   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 142
+      name: "TargetTS4_35-100-I3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I3.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.0000, 4.4008, 1.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.0000, 4.4008, 1.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.189058, -0.981966,
+           0.000000,  0.981966,  0.189058   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 143
+      name: "TargetTS4_35-100-I4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I4.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.0000, 4.3036, 0.8000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.0000, 4.3036, 0.8000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.190927, -0.981604,
+           0.000000,  0.981604,  0.190927   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 144
+      name: "TargetTS4_35-100-I5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-I5.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 11.0000, 4.2091, 0.3000 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.0000, 4.2091, 0.3000 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.174819, -0.984601,
+           0.000000,  0.984601,  0.174819   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 311
+      name: "TargetTS4_35-100-LFJ-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.215, 1.59, 5.22 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.215, 1.59, 5.22 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 312
+      name: "TargetTS4_35-100-LFJ-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.215, 1.615, 5.07 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.215, 1.615, 5.07 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 313
+      name: "TargetTS4_35-100-LFJ-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.015, 1.615, 5.07 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.015, 1.615, 5.07 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.000000,  1.000000,
+           0.000000, -1.000000,  0.000000   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 314
+      name: "TargetTS4_35-100-LFJ-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFJ-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.015, 1.59, 5.22 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.015, 1.59, 5.22 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020,  0.939693,
+           0.000000, -0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 315
+      name: "TargetTS4_35-100-LFC-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0150, 1.8100, 5.8100 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0150, 1.8100, 5.8100 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 316
+      name: "TargetTS4_35-100-LFC-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0150, 2.0626, 5.6792 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0150, 2.0626, 5.6792 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 317
+      name: "TargetTS4_35-100-LFC-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.2150, 2.0626, 5.6792 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.2150, 2.0626, 5.6792 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 318
+      name: "TargetTS4_35-100-LFC-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LFC-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.2150, 1.8100, 5.8100 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.2150, 1.8100, 5.8100 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 321
+      name: "TargetTS4_35-100-RFJ-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0, 0.72, 5.22 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020, -0.939693,
+           0.000000,  0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0, 0.72, 5.22 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020, -0.939693,
+           0.000000,  0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 322
+      name: "TargetTS4_35-100-RFJ-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7, 0.694, 5.1 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.173648, -0.984808,
+           0.000000,  0.984808,  0.173648   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7, 0.694, 5.1 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.173648, -0.984808,
+           0.000000,  0.984808,  0.173648   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 323
+      name: "TargetTS4_35-100-RFJ-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.2, 0.6915, 5.1 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.087156, -0.996195,
+           0.000000,  0.996195,  0.087156   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.2, 0.6915, 5.1 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.087156, -0.996195,
+           0.000000,  0.996195,  0.087156   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 324
+      name: "TargetTS4_35-100-RFJ-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFJ-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.2, 0.717, 5.22 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020, -0.939693,
+           0.000000,  0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.2, 0.717, 5.22 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000,  0.342020, -0.939693,
+           0.000000,  0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 325
+      name: "TargetTS4_35-100-RFC-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.2000, 0.6500, 6.1440 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.2000, 0.6500, 6.1440 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 326
+      name: "TargetTS4_35-100-RFC-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.2000, 0.4700, 6.1740 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.2000, 0.4700, 6.1740 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 327
+      name: "TargetTS4_35-100-RFC-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 0.4700, 6.1740 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 0.4700, 6.1740 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 328
+      name: "TargetTS4_35-100-RFC-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RFC-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 7.0000, 0.6500, 6.1440 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 7.0000, 0.6500, 6.1440 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 331
+      name: "TargetTS4_35-100-RBJ-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.45, 0.741, 5.20 ]
+        rootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.45, 0.741, 5.20 ]
+        initialRootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 332
+      name: "TargetTS4_35-100-RBJ-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.45, 0.7180, 5.0800 ]
+        rootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.45, 0.7180, 5.0800 ]
+        initialRootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 333
+      name: "TargetTS4_35-100-RBJ-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.7220, 5.0800 ]
+        rootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.7220, 5.0800 ]
+        initialRootAttitude: [ 
+           0.984808, -0.015134,  0.172987,
+           0.173648,  0.085832, -0.981060,
+           0.000000,  0.996195,  0.087156   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 334
+      name: "TargetTS4_35-100-RBJ-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBJ-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.74700, 5.2000 ]
+        rootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.74700, 5.2000 ]
+        initialRootAttitude: [ 
+           0.984808, -0.059391,  0.163176,
+           0.173648,  0.336824, -0.925417,
+           0.000000,  0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 335
+      name: "TargetTS4_35-100-RBC-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.6500, 6.1440 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.6500, 6.1440 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 336
+      name: "TargetTS4_35-100-RBC-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.6500, 0.4700, 6.1740 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.6500, 0.4700, 6.1740 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 337
+      name: "TargetTS4_35-100-RBC-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.4500, 0.4700, 6.1740 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.4500, 0.4700, 6.1740 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.984808, -0.173648,
+           0.000000,  0.173648, -0.984808   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 338
+      name: "TargetTS4_35-100-RBC-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-RBC-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.4500, 0.6500, 6.1440 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.4500, 0.6500, 6.1440 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.965926, -0.258819,
+           0.000000,  0.258819, -0.965926   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 341
+      name: "TargetTS4_35-100-LBJ-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 1.5500, 5.1900 ]
+        rootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 1.5500, 5.1900 ]
+        initialRootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 342
+      name: "TargetTS4_35-100-LBJ-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 1.5700, 5.0400 ]
+        rootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 1.5700, 5.0400 ]
+        initialRootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 343
+      name: "TargetTS4_35-100-LBJ-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 1.5820, 5.0400 ]
+        rootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 1.5820, 5.0400 ]
+        initialRootAttitude: [ 
+           0.996195,  0.000000,  0.087156,
+          -0.087156,  0.000000,  0.996195,
+           0.000000, -1.000000,  0.000000   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 344
+      name: "TargetTS4_35-100-LBJ-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBJ-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 1.5600, 5.1900 ]
+        rootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 1.5600, 5.1900 ]
+        initialRootAttitude: [ 
+           0.996195,  0.029809,  0.081900,
+          -0.087156,  0.340719,  0.936117,
+           0.000000, -0.939693,  0.342020   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 345
+      name: "TargetTS4_35-100-LBC-R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-R.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 1.8100, 5.8100 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 1.8100, 5.8100 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 346
+      name: "TargetTS4_35-100-LBC-G"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-G.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.5300, 2.0626, 5.6792 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.5300, 2.0626, 5.6792 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 347
+      name: "TargetTS4_35-100-LBC-B"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-B.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 2.0626, 5.6792 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 2.0626, 5.6792 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 348
+      name: "TargetTS4_35-100-LBC-W"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2020/model/TargetTS4_35-100-LBC-W.body"
+        currentBaseLink: "QR-BASE"
+        rootPosition: [ 8.7300, 1.8100, 5.8100 ]
+        rootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8.7300, 1.8100, 5.8100 ]
+        initialRootAttitude: [ 
+           1.000000,  0.000000,  0.000000,
+           0.000000, -0.866025, -0.500000,
+           0.000000,  0.500000, -0.866025   ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 1000
+      name: "materials-WRS2020"
+      plugin: Body
+      class: MaterialTableItem
+      data: 
+        file: "materials-WRS2020.yaml"
+        format: MATERIAL-TABLE-FILE
+
+views: 
+  - 
+    id: 1
+    plugin: Base
+    class: ItemTreeView
+    mounted: true
+    state: 
+      checked: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 21, 22, 23, 24, 25, 
+      100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 
+      110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 
+      120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 
+      130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 
+      140, 141, 142, 143, 144,
+      200, 201, 202, 203, 204, 205,
+      311, 312, 313, 314, 315, 316, 317, 318,
+      321, 322, 323, 324, 325, 326, 327, 328,
+      331, 332, 333, 334, 335, 336, 337, 338,
+      341, 342, 343, 344, 345, 346, 347, 348 ]
+      expanded: [ 10, 13, 15 ]
+  - 
+    id: 2
+    name: "Camera Scene"
+    plugin: Base
+    class: SceneView
+    state: 
+      dedicatedItemTreeViewChecks: true
+      checked: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 21, 22, 23, 24, 25, 
+      100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 
+      110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 
+      120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 
+      130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 
+      140, 141, 142, 143, 144,
+      200, 201, 202, 203, 204, 205, 
+      311, 312, 313, 314, 315, 316, 317, 318,
+      321, 322, 323, 324, 325, 326, 327, 328,
+      331, 332, 333, 334, 335, 336, 337, 338,
+      341, 342, 343, 344, 345, 346, 347, 348 ]
+
