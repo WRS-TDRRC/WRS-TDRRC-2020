@@ -49,6 +49,7 @@ def write_project_script(filename, task, robot, interface):
 
     if robot == "Quadcopter":
         options += "enableMulticopterSimulation = True"
+        options += ', airDifinitionFile = "{}-airDifinition.dat"'.format(task)
 
     if interface:
         if options:

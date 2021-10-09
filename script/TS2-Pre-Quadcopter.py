@@ -1,4 +1,4 @@
 import WRSUtil
 WRSUtil.loadProject(
     "MultiSceneViews", "TS2-Pre", [ "AGXSimulator", "AISTSimulator" ], "Quadcopter",
-    enableMulticopterSimulation = True)
+    enableMulticopterSimulation = True, airDifinitionFile = "TS2-Pre-airDifinition.dat")

@@ -1,4 +1,4 @@
 import WRSUtil
 WRSUtil.loadProject(
     "MultiSceneViews", "TS4-Final", [ "AGXSimulator", "AISTSimulator" ], "Quadcopter",
-    enableMulticopterSimulation = True, enableVisionSimulation = True, remoteType = "ROS")
+    enableMulticopterSimulation = True, airDifinitionFile = "TS4-Final-airDifinition.dat", enableVisionSimulation = True, remoteType = "ROS")
