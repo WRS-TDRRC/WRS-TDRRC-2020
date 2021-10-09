@@ -188,15 +188,15 @@ items:
         collisionDetection: true
         selfCollisionDetection: false
         isEditable: false
-    - 
-      id: 40
-      name: "WorldLogFile"
-      plugin: Body
-      class: WorldLogFileItem
-      data: 
-        filename: TS4.log
-        timeStampSuffix: true
-        recordingFrameRate: 100
+#    - 
+#      id: 40
+#      name: "WorldLogFile"
+#      plugin: Body
+#      class: WorldLogFileItem
+#      data: 
+#        filename: TS4.log
+#        timeStampSuffix: true
+#        recordingFrameRate: 100
     - 
       id: 100
       name: "TargetTS4_35-100-A1"
