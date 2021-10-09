@@ -89,10 +89,6 @@ def loadProject(
 
         if enableMulticopterSimulation:
             multicopterSimulator = MulticopterSimulatorItem()
-            try:
-                multicopterSimulator.setAirDefinitionFile(os.path.join(projectdir, "TS4-air-around-fan.dat"))
-            except:
-                pass
             for simulator in world.getDescendantItems(SimulatorItem):
                 simulator.addChildItem(multicopterSimulator.duplicate())
 
@@ -100,9 +96,20 @@ def loadProject(
             visionSimulator = GLVisionSimulatorItem()
             visionSimulator.setTargetSensors(targetVisionSensors)
             visionSimulator.setBestEffortMode(True)
-            visionSimulator.setHeadLightEnabled(False)
             for simulator in world.getDescendantItems(SimulatorItem):
                 simulator.addChildItem(visionSimulator.duplicate())
+
+    # Disable the system head light for all GLVisionSimulatorItems
+    for visionSimulator in world.getDescendantItems(GLVisionSimulatorItem):
+        visionSimulator.setHeadLightEnabled(False)
+
+    # Set an air definition file to all MulticopterSimulatorItems
+    for multicopterSimulator in world.getDescendantItems(MulticopterSimulatorItem):
+        multicopterSimulator.setAirDefinitionFile(os.path.join(projectdir, "TS4-air-around-fan.dat"))
+
+    # Remove existing WorldLogFileItems
+    for logItem in world.getDescendantItems(WorldLogFileItem):
+        logItem.removeFromParentItem()
 
     logItem = WorldLogFileItem()
     logItem.setLogFile(task + ".log")
