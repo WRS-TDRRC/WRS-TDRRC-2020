@@ -1,4 +1,4 @@
-# WRS-TDRRC-2020 _Competition Backyard_  
+# WRS-TDRRC-2020 _Competition Version_  
 The Competition Model of World Robot Summit 2020 Tunnel Disaster Response and Recovery Challenge.  
 This repository contains TS1, TS2, TS3, and TS4 task fields.  
 You can use these task fields for practice.  
